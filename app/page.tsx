@@ -35,11 +35,11 @@ export default function Home() {
                   </span>
                 </button>
               </Link>
-              <a href="#contact">
+              <Link href="/learn">
                 <button className="px-8 py-4 border-2 border-white text-white font-semibold text-lg rounded-2xl hover:bg-white/10 transition-all duration-300 w-full sm:w-auto">
-                  Get in Touch
+                  Learn Topics
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

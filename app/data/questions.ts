@@ -4,6 +4,7 @@ export interface Question {
   id: number
   category: string
   question: string
+  instruction?: string
   options: string[]
   correctAnswer: number
   explanation?: string
@@ -15,6 +16,7 @@ export const questionBank: Question[] = [
     id: 1,
     category: 'Parallelism',
     question: 'Choose the most standard/acceptable structure:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The researcher likes analyzing data and to write reports.',
       'The researcher likes analyzing data and writing reports.',
@@ -28,6 +30,7 @@ export const questionBank: Question[] = [
     id: 2,
     category: 'Parallelism',
     question: 'Select the correct parallel structure:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The professor values students with dedication and who show commitment.',
       'The professor values students who have dedication and commitment.',
@@ -41,6 +44,7 @@ export const questionBank: Question[] = [
     id: 3,
     category: 'Parallelism',
     question: 'Which sentence demonstrates correct parallelism?',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The study requires collecting data, analyzing results, and to write conclusions.',
       'The study requires collecting data, to analyze results, and writing conclusions.',
@@ -54,6 +58,7 @@ export const questionBank: Question[] = [
     id: 4,
     category: 'Parallelism',
     question: 'Choose the sentence with proper parallel structure:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'Success requires dedication, perseverance, and being patient.',
       'Success requires dedication, perseverance, and patience.',
@@ -67,6 +72,7 @@ export const questionBank: Question[] = [
     id: 5,
     category: 'Parallelism',
     question: 'Identify the correctly structured sentence:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The candidate promised to reduce taxes, creating jobs, and improve education.',
       'The candidate promised reducing taxes, to create jobs, and improving education.',
@@ -80,6 +86,7 @@ export const questionBank: Question[] = [
     id: 6,
     category: 'Parallelism',
     question: 'Select the sentence with correct parallelism:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The manager was praised by the board, commended by employees, but the shareholders criticized him.',
       'The manager was praised by the board, commended by employees, but criticized by shareholders.',
@@ -93,6 +100,7 @@ export const questionBank: Question[] = [
     id: 7,
     category: 'Parallelism',
     question: 'Which option shows proper parallel construction?',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'Reading extensively is beneficial, but to write carelessly is detrimental.',
       'Reading extensively is beneficial, but writing carelessly is detrimental.',
@@ -106,6 +114,7 @@ export const questionBank: Question[] = [
     id: 8,
     category: 'Parallelism',
     question: 'Choose the correctly structured sentence:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The conference included presenting papers, discussing findings, and to network with colleagues.',
       'The conference included presenting papers, to discuss findings, and networking with colleagues.',
@@ -119,6 +128,7 @@ export const questionBank: Question[] = [
     id: 9,
     category: 'Parallelism',
     question: 'Identify the sentence with proper parallelism:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The report stated that enrollment increased, revenue grew, and satisfaction was improving.',
       'The report stated that enrollment increased, that revenue grew, and that satisfaction improved.',
@@ -132,6 +142,7 @@ export const questionBank: Question[] = [
     id: 10,
     category: 'Parallelism',
     question: 'Select the correctly parallel structure:',
+    instruction: 'Choose the option where all items in the series maintain the same grammatical form.',
     options: [
       'The athlete trains rigorously, eats healthy, and was sleeping adequately.',
       'The athlete trains rigorously, eating healthy, and sleeps adequately.',
@@ -147,6 +158,7 @@ export const questionBank: Question[] = [
     id: 11,
     category: 'Cohesion & Coherence',
     question: 'Academic excellence requires dedication. No one achieves it without effort. What does "it" refer to?',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Dedication',
       'Effort',
@@ -160,6 +172,7 @@ export const questionBank: Question[] = [
     id: 12,
     category: 'Cohesion & Coherence',
     question: 'Dr. Smith purchased new laboratory equipment. The calibration failed immediately. What does "calibration" refer to?',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Laboratory calibration',
       'Equipment calibration',
@@ -173,6 +186,7 @@ export const questionBank: Question[] = [
     id: 13,
     category: 'Cohesion & Coherence',
     question: 'Student: "I understand quantum mechanics." Professor: "I do as well." What does "do" replace?',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Understand',
       'Understand it',
@@ -186,6 +200,7 @@ export const questionBank: Question[] = [
     id: 14,
     category: 'Cohesion & Coherence',
     question: 'Two challenges face modern education: inadequate funding and outdated curricula. The latter poses greater threats. What does "latter" refer to?',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Inadequate funding',
       'Outdated curricula',
@@ -199,6 +214,7 @@ export const questionBank: Question[] = [
     id: 15,
     category: 'Cohesion & Coherence',
     question: 'Complete the form correctly. Then, submit it to the registrar. "Then" indicates:',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Simultaneously',
       'After completing the form',
@@ -212,6 +228,7 @@ export const questionBank: Question[] = [
     id: 16,
     category: 'Cohesion & Coherence',
     question: 'The university maintains strict admission standards. This ensures quality education. "This" refers to:',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'The university',
       'Strict standards',
@@ -225,6 +242,7 @@ export const questionBank: Question[] = [
     id: 17,
     category: 'Cohesion & Coherence',
     question: 'Climate change threatens biodiversity. Scientists study this phenomenon extensively. "This phenomenon" refers to:',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Biodiversity',
       'Climate change',
@@ -238,6 +256,7 @@ export const questionBank: Question[] = [
     id: 18,
     category: 'Cohesion & Coherence',
     question: 'She rejected the proposal citing ethical concerns. That was admirable. "That" refers to:',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'The proposal',
       'Ethical concerns',
@@ -253,6 +272,7 @@ export const questionBank: Question[] = [
     id: 19,
     category: 'Stylistic Variation',
     question: 'Choose the most appropriate for formal academic writing:',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       "The professor wasn't available for consultation.",
       'The professor was not available for consultation.',
@@ -266,6 +286,7 @@ export const questionBank: Question[] = [
     id: 20,
     category: 'Stylistic Variation',
     question: 'Select the appropriate formal equivalent of "hot drinks":',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Hot drinks',
       'Spirits',
@@ -279,6 +300,7 @@ export const questionBank: Question[] = [
     id: 21,
     category: 'Stylistic Variation',
     question: 'What is the Standard British English equivalent of "academician"?',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Academics',
       'Academic',
@@ -292,6 +314,7 @@ export const questionBank: Question[] = [
     id: 22,
     category: 'Stylistic Variation',
     question: 'Replace "assassinated my character" with standard English:',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Injured my name',
       'Spoilt my name',
@@ -305,6 +328,7 @@ export const questionBank: Question[] = [
     id: 23,
     category: 'Stylistic Variation',
     question: 'What is the formal way to say "crack jokes"?',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Talks',
       'Makes jokes',
@@ -318,6 +342,7 @@ export const questionBank: Question[] = [
     id: 24,
     category: 'Stylistic Variation',
     question: 'Replace "home training" with standard English:',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Well trained by parents',
       'Well taught',
@@ -331,6 +356,7 @@ export const questionBank: Question[] = [
     id: 25,
     category: 'Stylistic Variation',
     question: 'What is the formal equivalent of "nylon bag"?',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Leather bag',
       'Cellophane bag',
@@ -344,6 +370,7 @@ export const questionBank: Question[] = [
     id: 26,
     category: 'Stylistic Variation',
     question: 'Choose the formal academic phrasing:',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'I seek for approval of the results.',
       'I ask for approval of the results.',
@@ -359,6 +386,7 @@ export const questionBank: Question[] = [
     id: 27,
     category: 'Concord',
     question: 'The committee, along with its advisors, _____ approved the proposal.',
+    instruction: 'Determine whether the collective noun is acting as a single unit (singular) or as individuals (plural).',
     options: [
       'have',
       'has',
@@ -372,6 +400,7 @@ export const questionBank: Question[] = [
     id: 28,
     category: 'Concord',
     question: 'Either the students or the teacher _____ responsible.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'are',
       'is',
@@ -385,6 +414,7 @@ export const questionBank: Question[] = [
     id: 29,
     category: 'Concord',
     question: 'The number of applicants _____ increasing every year.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -398,6 +428,7 @@ export const questionBank: Question[] = [
     id: 30,
     category: 'Concord',
     question: 'More than one researcher _____ contributed to this discovery.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -411,6 +442,7 @@ export const questionBank: Question[] = [
     id: 31,
     category: 'Concord',
     question: 'Economics _____ a challenging subject for many students.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -424,6 +456,7 @@ export const questionBank: Question[] = [
     id: 32,
     category: 'Concord',
     question: 'Neither the professor nor the students _____ present.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'was',
       'is',
@@ -437,6 +470,7 @@ export const questionBank: Question[] = [
     id: 33,
     category: 'Concord',
     question: 'Each researcher and assistant _____ assigned a specific task.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -450,6 +484,7 @@ export const questionBank: Question[] = [
     id: 34,
     category: 'Concord',
     question: 'The data _____ analyzed using advanced statistical methods.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -463,6 +498,7 @@ export const questionBank: Question[] = [
     id: 35,
     category: 'Concord',
     question: 'Ten kilometers _____ a long distance to walk.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -476,6 +512,7 @@ export const questionBank: Question[] = [
     id: 36,
     category: 'Concord',
     question: 'One of the scientists _____ received international recognition.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -491,6 +528,7 @@ export const questionBank: Question[] = [
     id: 37,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Accomodation',
       'Accommodation',
@@ -504,6 +542,7 @@ export const questionBank: Question[] = [
     id: 38,
     category: 'Mechanics',
     question: 'Identify the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Priviledge',
       'Previlege',
@@ -517,6 +556,7 @@ export const questionBank: Question[] = [
     id: 39,
     category: 'Mechanics',
     question: 'Select the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Occassion',
       'Occasion',
@@ -530,6 +570,7 @@ export const questionBank: Question[] = [
     id: 40,
     category: 'Mechanics',
     question: 'Which spelling is correct?',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Maintainance',
       'Maintenance',
@@ -543,6 +584,7 @@ export const questionBank: Question[] = [
     id: 41,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Recieve',
       'Receive',
@@ -556,6 +598,7 @@ export const questionBank: Question[] = [
     id: 42,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Arguement',
       'Argument',
@@ -569,6 +612,7 @@ export const questionBank: Question[] = [
     id: 43,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Mischievious',
       'Mischievous',
@@ -584,6 +628,7 @@ export const questionBank: Question[] = [
     id: 44,
     category: 'Mechanics',
     question: 'Choose the correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'Vice-chancellor',
       'Vice Chancellor',
@@ -597,6 +642,7 @@ export const questionBank: Question[] = [
     id: 45,
     category: 'Mechanics',
     question: 'Identify correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'either Christianity or Islam',
       'either christianity or islam',
@@ -610,6 +656,7 @@ export const questionBank: Question[] = [
     id: 46,
     category: 'Mechanics',
     question: 'Select the correct form:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The Internet is Worldwide',
       'The internet is worldwide',
@@ -623,6 +670,7 @@ export const questionBank: Question[] = [
     id: 47,
     category: 'Mechanics',
     question: 'Choose correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'south-western Nigeria',
       'south-Western Nigeria',
@@ -638,6 +686,7 @@ export const questionBank: Question[] = [
     id: 48,
     category: 'Vocabulary',
     question: 'What is opposite in meaning to "ossified"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'Durable',
       'Flexible',
@@ -651,6 +700,7 @@ export const questionBank: Question[] = [
     id: 49,
     category: 'Vocabulary',
     question: '"Enervated" is opposite to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'Idyllic',
       'Frustrated',
@@ -664,6 +714,7 @@ export const questionBank: Question[] = [
     id: 50,
     category: 'Vocabulary',
     question: 'Which word is similar to "prolix"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'Terse',
       'Wordy',
@@ -679,6 +730,7 @@ export const questionBank: Question[] = [
     id: 51,
     category: 'Parallelism',
     question: 'The dean emphasized that scholars should be innovative, collaborative, and _____ in their research.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'having dedication',
       'they should be dedicated',
@@ -692,6 +744,7 @@ export const questionBank: Question[] = [
     id: 52,
     category: 'Stylistic Variation',
     question: 'In formal academic writing, which is most appropriate?',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The findings are pretty significant.',
       'The findings are very significant.',
@@ -705,6 +758,7 @@ export const questionBank: Question[] = [
     id: 53,
     category: 'Concord',
     question: 'Every student and teacher _____ required to attend the convocation.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -718,6 +772,7 @@ export const questionBank: Question[] = [
     id: 54,
     category: 'Cohesion & Coherence',
     question: 'The laboratory purchased new equipment. However, the staff found _____ difficult to operate.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'them',
       'it',
@@ -731,6 +786,7 @@ export const questionBank: Question[] = [
     id: 55,
     category: 'Vocabulary',
     question: 'The research methodology was _____ by international standards.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'lauded',
       'applauded',
@@ -744,6 +800,7 @@ export const questionBank: Question[] = [
     id: 56,
     category: 'Mechanics',
     question: 'Choose the correct punctuation: The committee members _____ agreed to meet again.',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'having deliberated for hours,',
       'having deliberated for hours',
@@ -757,6 +814,7 @@ export const questionBank: Question[] = [
     id: 57,
     category: 'Parallelism',
     question: 'The research proposal must be thorough, detailed, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'it should be comprehensive',
       'comprehensiveness',
@@ -770,6 +828,7 @@ export const questionBank: Question[] = [
     id: 58,
     category: 'Concord',
     question: 'The majority of the students _____ in favor of the new policy.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -783,6 +842,7 @@ export const questionBank: Question[] = [
     id: 59,
     category: 'Stylistic Variation',
     question: 'Replace this non-standard expression with standard English: "The deadline has reached."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The deadline has been reached.',
       'The deadline has arrived.',
@@ -796,6 +856,7 @@ export const questionBank: Question[] = [
     id: 60,
     category: 'Vocabulary',
     question: 'The argument was _____ because it lacked empirical evidence.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'tenacious',
       'tenuous',
@@ -809,6 +870,7 @@ export const questionBank: Question[] = [
     id: 61,
     category: 'Mechanics',
     question: 'Identify the correct sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The Professor studies African Literature.',
       'The professor studies African literature.',
@@ -822,6 +884,7 @@ export const questionBank: Question[] = [
     id: 62,
     category: 'Cohesion & Coherence',
     question: 'Choose the best transition: The experiment was meticulously planned. _____, the results were inconclusive.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'Nevertheless',
@@ -835,6 +898,7 @@ export const questionBank: Question[] = [
     id: 63,
     category: 'Concord',
     question: 'Physics _____ always been challenging for many students.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -848,6 +912,7 @@ export const questionBank: Question[] = [
     id: 64,
     category: 'Stylistic Variation',
     question: 'Which is the most formal and appropriate for academic writing?',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Lots of researchers think this theory is wrong.',
       'Many researchers think this theory is wrong.',
@@ -861,6 +926,7 @@ export const questionBank: Question[] = [
     id: 65,
     category: 'Parallelism',
     question: 'The curriculum aims to develop critical thinking, to enhance communication skills, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'promoting ethical awareness',
       'to promote ethical awareness',
@@ -874,6 +940,7 @@ export const questionBank: Question[] = [
     id: 66,
     category: 'Vocabulary',
     question: 'The professor\'s lecture was so _____ that many students struggled to follow.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'obtuse',
       'abstruse',
@@ -887,6 +954,7 @@ export const questionBank: Question[] = [
     id: 67,
     category: 'Mechanics',
     question: 'Choose the correctly punctuated sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The study examined three variables: age income and education level.',
       'The study examined three variables: age, income, and education level.',
@@ -900,6 +968,7 @@ export const questionBank: Question[] = [
     id: 68,
     category: 'Cohesion & Coherence',
     question: 'Choose the pronoun that best maintains coherence: "The university implemented new policies. _____ aim to improve student welfare."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'It',
       'They',
@@ -913,6 +982,7 @@ export const questionBank: Question[] = [
     id: 69,
     category: 'Concord',
     question: 'A number of researchers _____ expressed concerns about the methodology.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -926,6 +996,7 @@ export const questionBank: Question[] = [
     id: 70,
     category: 'Vocabulary',
     question: 'The committee decided to _____ the proposal pending further review.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'differ',
       'defer',
@@ -941,6 +1012,7 @@ export const questionBank: Question[] = [
     id: 71,
     category: 'Parallelism',
     question: 'The job requires attention to detail, strong analytical skills, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'you must communicate effectively',
       'effective communication',
@@ -954,6 +1026,7 @@ export const questionBank: Question[] = [
     id: 72,
     category: 'Parallelism',
     question: 'She enjoys painting landscapes, sculpting figures, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to photograph nature',
       'photographing nature',
@@ -967,6 +1040,7 @@ export const questionBank: Question[] = [
     id: 73,
     category: 'Parallelism',
     question: 'The company values employees who are punctual, who work diligently, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'showing initiative',
       'who show initiative',
@@ -980,6 +1054,7 @@ export const questionBank: Question[] = [
     id: 74,
     category: 'Parallelism',
     question: 'The instructor emphasized the importance of preparing thoroughly, presenting confidently, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to answer questions clearly',
       'answering questions clearly',
@@ -993,6 +1068,7 @@ export const questionBank: Question[] = [
     id: 75,
     category: 'Parallelism',
     question: 'The policy aims to increase transparency, reduce corruption, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'promoting accountability',
       'promote accountability',
@@ -1006,6 +1082,7 @@ export const questionBank: Question[] = [
     id: 76,
     category: 'Parallelism',
     question: 'The students were asked to submit their assignments on time, follow the formatting guidelines, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'citing all sources properly',
       'cite all sources properly',
@@ -1019,6 +1096,7 @@ export const questionBank: Question[] = [
     id: 77,
     category: 'Parallelism',
     question: 'The conference will feature keynote speeches, panel discussions, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'there will be networking sessions',
       'networking sessions',
@@ -1032,6 +1110,7 @@ export const questionBank: Question[] = [
     id: 78,
     category: 'Parallelism',
     question: 'Effective leadership involves setting clear goals, motivating team members, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to provide constructive feedback',
       'providing constructive feedback',
@@ -1045,6 +1124,7 @@ export const questionBank: Question[] = [
     id: 79,
     category: 'Parallelism',
     question: 'The program is designed to enhance critical thinking, foster creativity, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'developing problem-solving skills',
       'develop problem-solving skills',
@@ -1058,6 +1138,7 @@ export const questionBank: Question[] = [
     id: 80,
     category: 'Parallelism',
     question: 'The candidate demonstrated competence by completing the project early, exceeding expectations, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'maintained high quality standards',
       'maintaining high quality standards',
@@ -1071,6 +1152,7 @@ export const questionBank: Question[] = [
     id: 81,
     category: 'Parallelism',
     question: 'The organization strives to be transparent in its operations, accountable to stakeholders, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'it is responsive to feedback',
       'responsive to feedback',
@@ -1084,6 +1166,7 @@ export const questionBank: Question[] = [
     id: 82,
     category: 'Parallelism',
     question: 'The essay should be well-researched, clearly written, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'properly cited',
       'with proper citations',
@@ -1097,6 +1180,7 @@ export const questionBank: Question[] = [
     id: 83,
     category: 'Parallelism',
     question: 'Her responsibilities include managing the budget, coordinating events, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to supervise staff members',
       'supervising staff members',
@@ -1110,6 +1194,7 @@ export const questionBank: Question[] = [
     id: 84,
     category: 'Parallelism',
     question: 'The workshop focused on improving communication, building teamwork, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to enhance leadership abilities',
       'enhancing leadership abilities',
@@ -1123,6 +1208,7 @@ export const questionBank: Question[] = [
     id: 85,
     category: 'Parallelism',
     question: 'To succeed in this field, one must be innovative, persistent, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'having adaptability',
       'adaptable',
@@ -1136,6 +1222,7 @@ export const questionBank: Question[] = [
     id: 86,
     category: 'Parallelism',
     question: 'The report was comprehensive, well-organized, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'writing it clearly',
       'clearly written',
@@ -1149,6 +1236,7 @@ export const questionBank: Question[] = [
     id: 87,
     category: 'Parallelism',
     question: 'The course teaches students how to analyze data, interpret results, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'presenting findings effectively',
       'present findings effectively',
@@ -1162,6 +1250,7 @@ export const questionBank: Question[] = [
     id: 88,
     category: 'Parallelism',
     question: 'The successful applicant will be responsible for developing strategies, implementing solutions, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to monitor progress regularly',
       'monitoring progress regularly',
@@ -1175,6 +1264,7 @@ export const questionBank: Question[] = [
     id: 89,
     category: 'Parallelism',
     question: 'The university promotes excellence in teaching, innovation in research, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'serving the community',
       'service to the community',
@@ -1188,6 +1278,7 @@ export const questionBank: Question[] = [
     id: 90,
     category: 'Parallelism',
     question: 'The manager prefers hiring experienced candidates, training them thoroughly, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to retain them long-term',
       'retaining them long-term',
@@ -1203,6 +1294,7 @@ export const questionBank: Question[] = [
     id: 91,
     category: 'Concord',
     question: 'Neither the coach nor the players _____ satisfied with the results.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'was',
       'is',
@@ -1216,6 +1308,7 @@ export const questionBank: Question[] = [
     id: 92,
     category: 'Concord',
     question: 'The faculty, including the dean, _____ approved the new curriculum.',
+    instruction: 'Determine whether the collective noun is acting as a single unit (singular) or as individuals (plural).',
     options: [
       'has',
       'have',
@@ -1229,6 +1322,7 @@ export const questionBank: Question[] = [
     id: 93,
     category: 'Concord',
     question: 'Twenty dollars _____ too much for that book.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -1242,6 +1336,7 @@ export const questionBank: Question[] = [
     id: 94,
     category: 'Concord',
     question: 'None of the students _____ completed the assignment on time.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -1255,6 +1350,7 @@ export const questionBank: Question[] = [
     id: 95,
     category: 'Concord',
     question: 'The criteria for admission _____ very strict.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -1268,6 +1364,7 @@ export const questionBank: Question[] = [
     id: 96,
     category: 'Concord',
     question: 'Each of the researchers _____ presenting their findings tomorrow.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -1281,6 +1378,7 @@ export const questionBank: Question[] = [
     id: 97,
     category: 'Concord',
     question: 'The team _____ celebrating their victory in the championship.',
+    instruction: 'Determine whether the collective noun is acting as a single unit (singular) or as individuals (plural).',
     options: [
       'is',
       'are',
@@ -1294,6 +1392,7 @@ export const questionBank: Question[] = [
     id: 98,
     category: 'Concord',
     question: 'Half of the budget _____ allocated to research and development.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -1307,6 +1406,7 @@ export const questionBank: Question[] = [
     id: 99,
     category: 'Concord',
     question: 'Politics _____ been a controversial topic throughout history.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -1320,6 +1420,7 @@ export const questionBank: Question[] = [
     id: 100,
     category: 'Concord',
     question: 'The news from the conference _____ encouraging.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'are',
@@ -1333,6 +1434,7 @@ export const questionBank: Question[] = [
     id: 101,
     category: 'Concord',
     question: 'Either the manager or his assistants _____ handling the situation.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'is',
       'are',
@@ -1346,6 +1448,7 @@ export const questionBank: Question[] = [
     id: 102,
     category: 'Concord',
     question: 'A pair of scissors _____ on the desk.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -1359,6 +1462,7 @@ export const questionBank: Question[] = [
     id: 103,
     category: 'Concord',
     question: 'The jury _____ reached a unanimous decision.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -1372,6 +1476,7 @@ export const questionBank: Question[] = [
     id: 104,
     category: 'Concord',
     question: 'Neither of the solutions _____ acceptable to the committee.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'were',
       'was',
@@ -1385,6 +1490,7 @@ export const questionBank: Question[] = [
     id: 105,
     category: 'Concord',
     question: 'The phenomena observed in the experiment _____ unprecedented.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -1398,6 +1504,7 @@ export const questionBank: Question[] = [
     id: 106,
     category: 'Concord',
     question: 'Five years _____ a long time to wait for results.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -1411,6 +1518,7 @@ export const questionBank: Question[] = [
     id: 107,
     category: 'Concord',
     question: 'The media _____ covering the story extensively.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -1424,6 +1532,7 @@ export const questionBank: Question[] = [
     id: 108,
     category: 'Concord',
     question: 'Every student and teacher _____ expected to attend the assembly.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -1437,6 +1546,7 @@ export const questionBank: Question[] = [
     id: 109,
     category: 'Concord',
     question: 'The majority of the evidence _____ in favor of the hypothesis.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -1450,6 +1560,7 @@ export const questionBank: Question[] = [
     id: 110,
     category: 'Concord',
     question: 'Measles _____ a highly contagious disease.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -1465,6 +1576,7 @@ export const questionBank: Question[] = [
     id: 111,
     category: 'Cohesion & Coherence',
     question: 'The experiment yielded surprising results. _____, the researchers decided to repeat the procedure.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'However',
@@ -1478,6 +1590,7 @@ export const questionBank: Question[] = [
     id: 112,
     category: 'Cohesion & Coherence',
     question: 'Students should study regularly. _____, cramming before exams is ineffective.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'In addition',
@@ -1491,6 +1604,7 @@ export const questionBank: Question[] = [
     id: 113,
     category: 'Cohesion & Coherence',
     question: 'The policy has several advantages. _____, it reduces costs and improves efficiency.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nevertheless',
       'For instance',
@@ -1504,6 +1618,7 @@ export const questionBank: Question[] = [
     id: 114,
     category: 'Cohesion & Coherence',
     question: 'The project was completed on time. _____, the quality exceeded expectations.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Consequently',
       'Nevertheless',
@@ -1517,6 +1632,7 @@ export const questionBank: Question[] = [
     id: 115,
     category: 'Cohesion & Coherence',
     question: 'Regular exercise improves physical health. _____, it enhances mental wellbeing.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Conversely',
       'Nevertheless',
@@ -1530,6 +1646,7 @@ export const questionBank: Question[] = [
     id: 116,
     category: 'Cohesion & Coherence',
     question: 'The library provides access to thousands of journals. _____, students can access databases remotely.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'However',
       'In fact',
@@ -1543,6 +1660,7 @@ export const questionBank: Question[] = [
     id: 117,
     category: 'Cohesion & Coherence',
     question: 'The company invested heavily in research. _____, innovation remained stagnant.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'Thus',
@@ -1556,6 +1674,7 @@ export const questionBank: Question[] = [
     id: 118,
     category: 'Cohesion & Coherence',
     question: 'First, gather all necessary materials. _____, review the instructions carefully.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Finally',
       'Next',
@@ -1569,6 +1688,7 @@ export const questionBank: Question[] = [
     id: 119,
     category: 'Cohesion & Coherence',
     question: 'The theory seems plausible. _____, empirical evidence is lacking.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Moreover',
       'Furthermore',
@@ -1582,6 +1702,7 @@ export const questionBank: Question[] = [
     id: 120,
     category: 'Cohesion & Coherence',
     question: 'The deadline is approaching. _____, we must accelerate our progress.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'In other words',
       'For example',
@@ -1595,6 +1716,7 @@ export const questionBank: Question[] = [
     id: 121,
     category: 'Cohesion & Coherence',
     question: 'Technology offers many benefits. _____, it raises privacy concerns.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'Likewise',
@@ -1608,6 +1730,7 @@ export const questionBank: Question[] = [
     id: 122,
     category: 'Cohesion & Coherence',
     question: 'The research methodology was flawed. _____, the conclusions are questionable.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nevertheless',
       'As a result',
@@ -1621,6 +1744,7 @@ export const questionBank: Question[] = [
     id: 123,
     category: 'Cohesion & Coherence',
     question: 'The proposal requires significant funding. _____, it demands substantial time commitment.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'In contrast',
       'Otherwise',
@@ -1634,6 +1758,7 @@ export const questionBank: Question[] = [
     id: 124,
     category: 'Cohesion & Coherence',
     question: 'Some researchers support the hypothesis. _____, others remain skeptical.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Likewise',
       'Similarly',
@@ -1647,6 +1772,7 @@ export const questionBank: Question[] = [
     id: 125,
     category: 'Cohesion & Coherence',
     question: 'The university expanded its facilities. _____, enrollment increased significantly.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Subsequently',
       'Nevertheless',
@@ -1660,6 +1786,7 @@ export const questionBank: Question[] = [
     id: 126,
     category: 'Cohesion & Coherence',
     question: 'The experiment failed to produce expected results. _____, it provided valuable insights.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'Thus',
@@ -1673,6 +1800,7 @@ export const questionBank: Question[] = [
     id: 127,
     category: 'Cohesion & Coherence',
     question: 'Effective communication requires clarity. _____, it demands active listening.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Conversely',
       'Instead',
@@ -1686,6 +1814,7 @@ export const questionBank: Question[] = [
     id: 128,
     category: 'Cohesion & Coherence',
     question: 'The data supports the initial hypothesis. _____, further research is recommended.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nevertheless',
       'Therefore',
@@ -1699,6 +1828,7 @@ export const questionBank: Question[] = [
     id: 129,
     category: 'Cohesion & Coherence',
     question: 'Attending lectures is important. _____, independent study is essential for mastery.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Likewise',
       'Similarly',
@@ -1712,6 +1842,7 @@ export const questionBank: Question[] = [
     id: 130,
     category: 'Cohesion & Coherence',
     question: 'The software has advanced features. _____, the interface is user-friendly.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'In spite of this',
       'Despite this',
@@ -1727,6 +1858,7 @@ export const questionBank: Question[] = [
     id: 131,
     category: 'Stylistic Variation',
     question: 'Replace with standard English: "The result is not too good."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The result is not very good.',
       'The result is poor.',
@@ -1740,6 +1872,7 @@ export const questionBank: Question[] = [
     id: 132,
     category: 'Stylistic Variation',
     question: 'Choose the most formal alternative to: "The professor is very smart."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The professor is quite intelligent.',
       'The professor is really clever.',
@@ -1753,6 +1886,7 @@ export const questionBank: Question[] = [
     id: 133,
     category: 'Stylistic Variation',
     question: 'Replace with standard formal English: "The findings are kind of interesting."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The findings are somewhat interesting.',
       'The findings are rather interesting.',
@@ -1766,6 +1900,7 @@ export const questionBank: Question[] = [
     id: 134,
     category: 'Stylistic Variation',
     question: 'Identify the most appropriate formal expression for: "The deadline is very close."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The deadline is really near.',
       'The deadline is approaching rapidly.',
@@ -1779,6 +1914,7 @@ export const questionBank: Question[] = [
     id: 135,
     category: 'Stylistic Variation',
     question: 'Choose the formal equivalent of: "The student got good grades."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The student achieved excellent results.',
       'The student obtained satisfactory grades.',
@@ -1792,6 +1928,7 @@ export const questionBank: Question[] = [
     id: 136,
     category: 'Stylistic Variation',
     question: 'Replace with standard English: "The research is ongoing."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The research is still going on.',
       'The research is continuing.',
@@ -1805,6 +1942,7 @@ export const questionBank: Question[] = [
     id: 137,
     category: 'Stylistic Variation',
     question: 'Identify the formal replacement for: "The idea is pretty good."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The idea is quite good.',
       'The idea is rather good.',
@@ -1818,6 +1956,7 @@ export const questionBank: Question[] = [
     id: 138,
     category: 'Stylistic Variation',
     question: 'Choose the most formal expression: "The author talks about climate change."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The author discusses climate change.',
       'The author examines climate change.',
@@ -1831,6 +1970,7 @@ export const questionBank: Question[] = [
     id: 139,
     category: 'Stylistic Variation',
     question: 'Replace with formal academic English: "A lot of people think this way."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'Many people think this way.',
       'Numerous individuals hold this perspective.',
@@ -1844,6 +1984,7 @@ export const questionBank: Question[] = [
     id: 140,
     category: 'Stylistic Variation',
     question: 'Identify the formal equivalent: "The test was really hard."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The test was very difficult.',
       'The test was quite challenging.',
@@ -1857,6 +1998,7 @@ export const questionBank: Question[] = [
     id: 141,
     category: 'Stylistic Variation',
     question: 'Choose the formal replacement: "The report shows clearly that..."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The report demonstrates clearly that...',
       'The report demonstrates conclusively that...',
@@ -1870,6 +2012,7 @@ export const questionBank: Question[] = [
     id: 142,
     category: 'Stylistic Variation',
     question: 'Replace with standard formal English: "The study looks at various factors."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The study examines various factors.',
       'The study investigates multiple factors.',
@@ -1883,6 +2026,7 @@ export const questionBank: Question[] = [
     id: 143,
     category: 'Stylistic Variation',
     question: 'Identify the most formal expression: "The theory is based on facts."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The theory is founded on empirical evidence.',
       'The theory is grounded in factual data.',
@@ -1896,6 +2040,7 @@ export const questionBank: Question[] = [
     id: 144,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The problem is getting worse."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The problem is becoming worse.',
       'The problem is worsening.',
@@ -1909,6 +2054,7 @@ export const questionBank: Question[] = [
     id: 145,
     category: 'Stylistic Variation',
     question: 'Replace with formal academic English: "We need to find out why this happens."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'We need to discover why this occurs.',
       'It is necessary to ascertain the cause of this phenomenon.',
@@ -1924,6 +2070,7 @@ export const questionBank: Question[] = [
     id: 146,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Concensus',
       'Consensus',
@@ -1937,6 +2084,7 @@ export const questionBank: Question[] = [
     id: 147,
     category: 'Mechanics',
     question: 'Identify the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Seperate',
       'Separate',
@@ -1950,6 +2098,7 @@ export const questionBank: Question[] = [
     id: 148,
     category: 'Mechanics',
     question: 'Select the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Definately',
       'Definitly',
@@ -1963,6 +2112,7 @@ export const questionBank: Question[] = [
     id: 149,
     category: 'Mechanics',
     question: 'Which spelling is correct?',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Embarass',
       'Embarrass',
@@ -1976,6 +2126,7 @@ export const questionBank: Question[] = [
     id: 150,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Liason',
       'Liaison',
@@ -1989,6 +2140,7 @@ export const questionBank: Question[] = [
     id: 151,
     category: 'Mechanics',
     question: 'Identify the correct punctuation: The committee members _____ were experienced professionals.',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'all of whom',
       'all of whom,',
@@ -2002,6 +2154,7 @@ export const questionBank: Question[] = [
     id: 152,
     category: 'Mechanics',
     question: 'Choose the correctly punctuated sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The results were surprising; however we continued the study.',
       'The results were surprising; however, we continued the study.',
@@ -2015,6 +2168,7 @@ export const questionBank: Question[] = [
     id: 153,
     category: 'Mechanics',
     question: 'Select the correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She earned a Bachelor\'s Degree in biology.',
       'She earned a bachelor\'s degree in Biology.',
@@ -2028,6 +2182,7 @@ export const questionBank: Question[] = [
     id: 154,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Perseverence',
       'Perseverance',
@@ -2041,6 +2196,7 @@ export const questionBank: Question[] = [
     id: 155,
     category: 'Mechanics',
     question: 'Identify the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Neccessary',
       'Necesary',
@@ -2054,6 +2210,7 @@ export const questionBank: Question[] = [
     id: 156,
     category: 'Mechanics',
     question: 'Choose the correct punctuation: After reviewing the data _____ the team reached a conclusion.',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       ', carefully',
       'carefully',
@@ -2067,6 +2224,7 @@ export const questionBank: Question[] = [
     id: 157,
     category: 'Mechanics',
     question: 'Select the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Exhileration',
       'Exhilaration',
@@ -2080,6 +2238,7 @@ export const questionBank: Question[] = [
     id: 158,
     category: 'Mechanics',
     question: 'Identify the correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She traveled to the middle east.',
       'She traveled to the Middle east.',
@@ -2093,6 +2252,7 @@ export const questionBank: Question[] = [
     id: 159,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Occurence',
       'Occurance',
@@ -2106,6 +2266,7 @@ export const questionBank: Question[] = [
     id: 160,
     category: 'Mechanics',
     question: 'Select the correctly punctuated sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The research focused on three areas: physics, chemistry and biology.',
       'The research focused on three areas: physics chemistry and biology.',
@@ -2121,6 +2282,7 @@ export const questionBank: Question[] = [
     id: 161,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ remarks offended many in the audience.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'perspicacious',
       'innocuous',
@@ -2134,6 +2296,7 @@ export const questionBank: Question[] = [
     id: 162,
     category: 'Vocabulary',
     question: 'The professor\'s explanation was so _____ that even beginners understood.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'obscure',
       'lucid',
@@ -2147,6 +2310,7 @@ export const questionBank: Question[] = [
     id: 163,
     category: 'Vocabulary',
     question: 'The politician\'s _____ response avoided directly answering the question.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'candid',
       'forthright',
@@ -2160,6 +2324,7 @@ export const questionBank: Question[] = [
     id: 164,
     category: 'Vocabulary',
     question: 'Despite the setback, she remained _____ about her chances of success.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'pessimistic',
       'sanguine',
@@ -2173,6 +2338,7 @@ export const questionBank: Question[] = [
     id: 165,
     category: 'Vocabulary',
     question: 'The evidence _____ the defendant\'s claim of innocence.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'corroborated',
       'refuted',
@@ -2186,6 +2352,7 @@ export const questionBank: Question[] = [
     id: 166,
     category: 'Vocabulary',
     question: 'The company\'s _____ approach to innovation led to its decline.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'progressive',
       'innovative',
@@ -2199,6 +2366,7 @@ export const questionBank: Question[] = [
     id: 167,
     category: 'Vocabulary',
     question: 'His _____ behavior at the formal event embarrassed his colleagues.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'decorous',
       'uncouth',
@@ -2212,6 +2380,7 @@ export const questionBank: Question[] = [
     id: 168,
     category: 'Vocabulary',
     question: 'The review praised the author\'s _____ writing style.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'verbose',
       'prolix',
@@ -2225,6 +2394,7 @@ export const questionBank: Question[] = [
     id: 169,
     category: 'Vocabulary',
     question: 'The diplomat\'s _____ handling of the crisis prevented escalation.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'tactless',
       'inept',
@@ -2238,6 +2408,7 @@ export const questionBank: Question[] = [
     id: 170,
     category: 'Vocabulary',
     question: 'The student\'s _____ work ethic earned respect from professors.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'lackadaisical',
       'assiduous',
@@ -2251,6 +2422,7 @@ export const questionBank: Question[] = [
     id: 171,
     category: 'Vocabulary',
     question: 'The _____ nature of the regulations made compliance difficult.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'straightforward',
       'pellucid',
@@ -2264,6 +2436,7 @@ export const questionBank: Question[] = [
     id: 172,
     category: 'Vocabulary',
     question: 'Her _____ for languages allowed her to learn five fluently.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'ineptitude',
       'aptitude',
@@ -2277,6 +2450,7 @@ export const questionBank: Question[] = [
     id: 173,
     category: 'Vocabulary',
     question: 'The witness gave a _____ account that contradicted earlier testimony.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'consistent',
       'concordant',
@@ -2290,6 +2464,7 @@ export const questionBank: Question[] = [
     id: 174,
     category: 'Vocabulary',
     question: 'The manager\'s _____ leadership style stifled creativity.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'democratic',
       'collaborative',
@@ -2303,6 +2478,7 @@ export const questionBank: Question[] = [
     id: 175,
     category: 'Vocabulary',
     question: 'The _____ of evidence made the case difficult to prosecute.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'abundance',
       'profusion',
@@ -2316,6 +2492,7 @@ export const questionBank: Question[] = [
     id: 176,
     category: 'Vocabulary',
     question: 'His _____ comments revealed his deep knowledge of the subject.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'superficial',
       'cursory',
@@ -2329,6 +2506,7 @@ export const questionBank: Question[] = [
     id: 177,
     category: 'Vocabulary',
     question: 'The committee\'s decision to _____ the outdated policy was well-received.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'perpetuate',
       'maintain',
@@ -2342,6 +2520,7 @@ export const questionBank: Question[] = [
     id: 178,
     category: 'Vocabulary',
     question: 'The _____ nature of the problem required immediate attention.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'trivial',
       'negligible',
@@ -2355,6 +2534,7 @@ export const questionBank: Question[] = [
     id: 179,
     category: 'Vocabulary',
     question: 'Her _____ attitude toward work frustrated her supervisors.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'zealous',
       'perfunctory',
@@ -2368,6 +2548,7 @@ export const questionBank: Question[] = [
     id: 180,
     category: 'Vocabulary',
     question: 'The researcher\'s _____ analysis revealed hidden patterns in the data.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'cursory',
       'meticulous',
@@ -2381,6 +2562,7 @@ export const questionBank: Question[] = [
     id: 181,
     category: 'Vocabulary',
     question: 'The _____ between theory and practice became evident during implementation.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'congruence',
       'harmony',
@@ -2394,6 +2576,7 @@ export const questionBank: Question[] = [
     id: 182,
     category: 'Vocabulary',
     question: 'The _____ of the ancient manuscript made translation challenging.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'clarity',
       'legibility',
@@ -2407,6 +2590,7 @@ export const questionBank: Question[] = [
     id: 183,
     category: 'Vocabulary',
     question: 'His _____ spending habits led to financial difficulties.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'frugal',
       'prudent',
@@ -2420,6 +2604,7 @@ export const questionBank: Question[] = [
     id: 184,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ delivery captivated the audience.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'monotonous',
       'compelling',
@@ -2433,6 +2618,7 @@ export const questionBank: Question[] = [
     id: 185,
     category: 'Vocabulary',
     question: 'The _____ requirements of the position deterred many applicants.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'lenient',
       'lax',
@@ -2446,6 +2632,7 @@ export const questionBank: Question[] = [
     id: 186,
     category: 'Vocabulary',
     question: 'The author\'s _____ use of metaphors enhanced the narrative.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'sparse',
       'meager',
@@ -2459,6 +2646,7 @@ export const questionBank: Question[] = [
     id: 187,
     category: 'Vocabulary',
     question: 'The _____ witness refused to testify despite pressure.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'compliant',
       'obdurate',
@@ -2472,6 +2660,7 @@ export const questionBank: Question[] = [
     id: 188,
     category: 'Vocabulary',
     question: 'The committee decided to _____ the controversial clause from the document.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'insert',
       'append',
@@ -2485,6 +2674,7 @@ export const questionBank: Question[] = [
     id: 189,
     category: 'Vocabulary',
     question: 'Her _____ grasp of the subject impressed the examiners.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'tenuous',
       'comprehensive',
@@ -2498,6 +2688,7 @@ export const questionBank: Question[] = [
     id: 190,
     category: 'Vocabulary',
     question: 'The _____ of the situation required diplomatic intervention.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'triviality',
       'insignificance',
@@ -2511,6 +2702,7 @@ export const questionBank: Question[] = [
     id: 191,
     category: 'Vocabulary',
     question: 'The _____ student always sought to learn more than required.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'apathetic',
       'inquisitive',
@@ -2524,6 +2716,7 @@ export const questionBank: Question[] = [
     id: 192,
     category: 'Vocabulary',
     question: 'The policy aimed to _____ discrimination in the workplace.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'perpetuate',
       'foster',
@@ -2537,6 +2730,7 @@ export const questionBank: Question[] = [
     id: 193,
     category: 'Vocabulary',
     question: 'The _____ of opinions enriched the discussion.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'uniformity',
       'homogeneity',
@@ -2550,6 +2744,7 @@ export const questionBank: Question[] = [
     id: 194,
     category: 'Vocabulary',
     question: 'His _____ achievements in science earned him international recognition.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'mediocre',
       'mundane',
@@ -2563,6 +2758,7 @@ export const questionBank: Question[] = [
     id: 195,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ argument failed to convince the audience.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'cogent',
       'compelling',
@@ -2576,6 +2772,7 @@ export const questionBank: Question[] = [
     id: 196,
     category: 'Vocabulary',
     question: 'The _____ effects of the policy were unexpected.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'intended',
       'anticipated',
@@ -2589,6 +2786,7 @@ export const questionBank: Question[] = [
     id: 197,
     category: 'Vocabulary',
     question: 'The professor\'s _____ criticism demoralized the student.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'constructive',
       'trenchant',
@@ -2602,6 +2800,7 @@ export const questionBank: Question[] = [
     id: 198,
     category: 'Vocabulary',
     question: 'The _____ of resources hampered the project\'s progress.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'abundance',
       'sufficiency',
@@ -2615,6 +2814,7 @@ export const questionBank: Question[] = [
     id: 199,
     category: 'Vocabulary',
     question: 'His _____ remarks during the meeting were inappropriate.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'pertinent',
       'relevant',
@@ -2628,6 +2828,7 @@ export const questionBank: Question[] = [
     id: 200,
     category: 'Vocabulary',
     question: 'The _____ document outlined all procedures clearly.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'ambiguous',
       'vague',
@@ -2641,6 +2842,7 @@ export const questionBank: Question[] = [
     id: 201,
     category: 'Vocabulary',
     question: 'The company\'s _____ growth impressed investors.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'stagnant',
       'static',
@@ -2654,6 +2856,7 @@ export const questionBank: Question[] = [
     id: 202,
     category: 'Vocabulary',
     question: 'The _____ leader inspired loyalty among followers.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'despotic',
       'tyrannical',
@@ -2667,6 +2870,7 @@ export const questionBank: Question[] = [
     id: 203,
     category: 'Vocabulary',
     question: 'The researcher\'s _____ approach yielded reliable results.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'haphazard',
       'systematic',
@@ -2680,6 +2884,7 @@ export const questionBank: Question[] = [
     id: 204,
     category: 'Vocabulary',
     question: 'The _____ tone of the letter offended the recipient.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'respectful',
       'deferential',
@@ -2693,6 +2898,7 @@ export const questionBank: Question[] = [
     id: 205,
     category: 'Vocabulary',
     question: 'The _____ scholar published prolifically throughout her career.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'dilettante',
       'amateur',
@@ -2706,6 +2912,7 @@ export const questionBank: Question[] = [
     id: 206,
     category: 'Vocabulary',
     question: 'The _____ nature of the agreement allowed for flexibility.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'rigid',
       'inflexible',
@@ -2719,6 +2926,7 @@ export const questionBank: Question[] = [
     id: 207,
     category: 'Vocabulary',
     question: 'The committee sought to _____ tensions between opposing factions.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'exacerbate',
       'intensify',
@@ -2732,6 +2940,7 @@ export const questionBank: Question[] = [
     id: 208,
     category: 'Vocabulary',
     question: 'The _____ evidence supported the prosecution\'s case.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'tenuous',
       'flimsy',
@@ -2745,6 +2954,7 @@ export const questionBank: Question[] = [
     id: 209,
     category: 'Vocabulary',
     question: 'The politician\'s _____ promises rarely materialized.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'genuine',
       'sincere',
@@ -2758,6 +2968,7 @@ export const questionBank: Question[] = [
     id: 210,
     category: 'Vocabulary',
     question: 'The _____ atmosphere in the laboratory fostered innovation.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'stifling',
       'oppressive',
@@ -2773,6 +2984,7 @@ export const questionBank: Question[] = [
     id: 211,
     category: 'Parallelism',
     question: 'The proposal suggests reducing costs, increasing revenue, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to improve efficiency',
       'improving efficiency',
@@ -2786,6 +2998,7 @@ export const questionBank: Question[] = [
     id: 212,
     category: 'Parallelism',
     question: 'The ideal candidate should be experienced, knowledgeable, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'having reliability',
       'reliable',
@@ -2799,6 +3012,7 @@ export const questionBank: Question[] = [
     id: 213,
     category: 'Parallelism',
     question: 'She succeeded by planning carefully, working consistently, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to adapt quickly',
       'adapting quickly',
@@ -2812,6 +3026,7 @@ export const questionBank: Question[] = [
     id: 214,
     category: 'Parallelism',
     question: 'The training program covers technical skills, professional ethics, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'how to communicate effectively',
       'effective communication',
@@ -2825,6 +3040,7 @@ export const questionBank: Question[] = [
     id: 215,
     category: 'Parallelism',
     question: 'The committee recommended hiring consultants, conducting surveys, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to analyze data',
       'analyzing data',
@@ -2838,6 +3054,7 @@ export const questionBank: Question[] = [
     id: 216,
     category: 'Parallelism',
     question: 'The manuscript was well-written, thoroughly researched, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'it was properly formatted',
       'properly formatted',
@@ -2851,6 +3068,7 @@ export const questionBank: Question[] = [
     id: 217,
     category: 'Parallelism',
     question: 'To complete the project successfully, we need adequate funding, qualified personnel, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'having sufficient time',
       'sufficient time',
@@ -2864,6 +3082,7 @@ export const questionBank: Question[] = [
     id: 218,
     category: 'Parallelism',
     question: 'The director values creativity, rewards initiative, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'encouraging collaboration',
       'encourages collaboration',
@@ -2877,6 +3096,7 @@ export const questionBank: Question[] = [
     id: 219,
     category: 'Parallelism',
     question: 'The policy addresses environmental concerns, economic factors, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'it considers social impacts',
       'social impacts',
@@ -2890,6 +3110,7 @@ export const questionBank: Question[] = [
     id: 220,
     category: 'Parallelism',
     question: 'The speaker was articulate, persuasive, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'she engaged the audience',
       'engaging',
@@ -2905,6 +3126,7 @@ export const questionBank: Question[] = [
     id: 221,
     category: 'Concord',
     question: 'The series of lectures _____ extremely informative.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -2918,6 +3140,7 @@ export const questionBank: Question[] = [
     id: 222,
     category: 'Concord',
     question: 'Seventy percent of the population _____ in urban areas.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'live',
       'lives',
@@ -2931,6 +3154,7 @@ export const questionBank: Question[] = [
     id: 223,
     category: 'Concord',
     question: 'The scissors _____ on the table.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -2944,6 +3168,7 @@ export const questionBank: Question[] = [
     id: 224,
     category: 'Concord',
     question: 'Either the professor or the students _____ mistaken about the date.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'is',
       'are',
@@ -2957,6 +3182,7 @@ export const questionBank: Question[] = [
     id: 225,
     category: 'Concord',
     question: 'The audience _____ applauding enthusiastically.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -2970,6 +3196,7 @@ export const questionBank: Question[] = [
     id: 226,
     category: 'Concord',
     question: 'Three-quarters of the work _____ completed yesterday.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -2983,6 +3210,7 @@ export const questionBank: Question[] = [
     id: 227,
     category: 'Concord',
     question: 'The headquarters _____ located in the capital city.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -2996,6 +3224,7 @@ export const questionBank: Question[] = [
     id: 228,
     category: 'Concord',
     question: 'Neither coffee nor tea _____ available at this hour.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'are',
       'is',
@@ -3009,6 +3238,7 @@ export const questionBank: Question[] = [
     id: 229,
     category: 'Concord',
     question: 'The staff _____ divided in their opinions on the matter.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -3022,6 +3252,7 @@ export const questionBank: Question[] = [
     id: 230,
     category: 'Concord',
     question: 'Linguistics _____ the scientific study of language.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -3037,6 +3268,7 @@ export const questionBank: Question[] = [
     id: 231,
     category: 'Cohesion & Coherence',
     question: 'Education is crucial for development. _____, investment in schools must increase.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'However',
       'Therefore',
@@ -3050,6 +3282,7 @@ export const questionBank: Question[] = [
     id: 232,
     category: 'Cohesion & Coherence',
     question: 'The budget was limited. _____, the team completed the project successfully.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Thus',
       'Therefore',
@@ -3063,6 +3296,7 @@ export const questionBank: Question[] = [
     id: 233,
     category: 'Cohesion & Coherence',
     question: 'Regular practice improves skills. _____, consistent effort leads to mastery.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'On the contrary',
       'However',
@@ -3076,6 +3310,7 @@ export const questionBank: Question[] = [
     id: 234,
     category: 'Cohesion & Coherence',
     question: 'The proposal has merit. _____, implementation costs are prohibitive.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Moreover',
       'Furthermore',
@@ -3089,6 +3324,7 @@ export const questionBank: Question[] = [
     id: 235,
     category: 'Cohesion & Coherence',
     question: 'Technology enhances productivity. _____, it can reduce employment opportunities.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Likewise',
       'Similarly',
@@ -3102,6 +3338,7 @@ export const questionBank: Question[] = [
     id: 236,
     category: 'Cohesion & Coherence',
     question: 'The evidence is compelling. _____, more research is warranted.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nevertheless',
       'Therefore',
@@ -3115,6 +3352,7 @@ export const questionBank: Question[] = [
     id: 237,
     category: 'Cohesion & Coherence',
     question: 'The climate is changing. _____, weather patterns have become unpredictable.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'As a result',
       'In contrast',
@@ -3128,6 +3366,7 @@ export const questionBank: Question[] = [
     id: 238,
     category: 'Cohesion & Coherence',
     question: 'Some favor traditional methods. _____, others prefer modern approaches.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'Likewise',
@@ -3141,6 +3380,7 @@ export const questionBank: Question[] = [
     id: 239,
     category: 'Cohesion & Coherence',
     question: 'The theory is elegant. _____, it lacks empirical support.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Furthermore',
       'Moreover',
@@ -3154,6 +3394,7 @@ export const questionBank: Question[] = [
     id: 240,
     category: 'Cohesion & Coherence',
     question: 'Begin with research. _____, develop your hypothesis.',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Finally',
       'Subsequently',
@@ -3169,6 +3410,7 @@ export const questionBank: Question[] = [
     id: 241,
     category: 'Stylistic Variation',
     question: 'Replace with formal academic English: "The study tries to find out the causes."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The study tries to discover the causes.',
       'The study attempts to identify the causes.',
@@ -3182,6 +3424,7 @@ export const questionBank: Question[] = [
     id: 242,
     category: 'Stylistic Variation',
     question: 'Choose the most formal alternative: "The results are almost the same."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The results are nearly identical.',
       'The results are virtually identical.',
@@ -3195,6 +3438,7 @@ export const questionBank: Question[] = [
     id: 243,
     category: 'Stylistic Variation',
     question: 'Replace with standard formal English: "The problem is getting bigger."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The problem is growing larger.',
       'The problem is expanding.',
@@ -3208,6 +3452,7 @@ export const questionBank: Question[] = [
     id: 244,
     category: 'Stylistic Variation',
     question: 'Identify the formal equivalent: "The study backs up the theory."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The study supports the theory.',
       'The study corroborates the theory.',
@@ -3221,6 +3466,7 @@ export const questionBank: Question[] = [
     id: 245,
     category: 'Stylistic Variation',
     question: 'Choose the formal replacement: "The findings go against previous research."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The findings oppose previous research.',
       'The findings contradict previous research.',
@@ -3234,6 +3480,7 @@ export const questionBank: Question[] = [
     id: 246,
     category: 'Stylistic Variation',
     question: 'Replace with formal academic English: "The method is used a lot in research."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The method is frequently used in research.',
       'The method is widely employed in research.',
@@ -3247,6 +3494,7 @@ export const questionBank: Question[] = [
     id: 247,
     category: 'Stylistic Variation',
     question: 'Identify the most formal expression: "The data shows important patterns."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The data reveals important patterns.',
       'The data demonstrates significant patterns.',
@@ -3260,6 +3508,7 @@ export const questionBank: Question[] = [
     id: 248,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The research looks into various factors."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The research examines various factors.',
       'The research investigates multiple factors.',
@@ -3273,6 +3522,7 @@ export const questionBank: Question[] = [
     id: 249,
     category: 'Stylistic Variation',
     question: 'Replace with formal academic English: "The results are really interesting."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The results are very interesting.',
       'The results are quite compelling.',
@@ -3286,6 +3536,7 @@ export const questionBank: Question[] = [
     id: 250,
     category: 'Stylistic Variation',
     question: 'Identify the formal equivalent: "The theory can\'t explain all cases."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The theory cannot explain all cases.',
       'The theory fails to explain all cases.',
@@ -3301,6 +3552,7 @@ export const questionBank: Question[] = [
     id: 251,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Acquaintence',
       'Acquaintance',
@@ -3314,6 +3566,7 @@ export const questionBank: Question[] = [
     id: 252,
     category: 'Mechanics',
     question: 'Identify the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Phenomenom',
       'Phenomenon',
@@ -3327,6 +3580,7 @@ export const questionBank: Question[] = [
     id: 253,
     category: 'Mechanics',
     question: 'Select the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Indispensible',
       'Indispensable',
@@ -3340,6 +3594,7 @@ export const questionBank: Question[] = [
     id: 254,
     category: 'Mechanics',
     question: 'Choose the correctly punctuated sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The professor said, that the exam would be difficult.',
       'The professor said that, the exam would be difficult.',
@@ -3353,6 +3608,7 @@ export const questionBank: Question[] = [
     id: 255,
     category: 'Mechanics',
     question: 'Identify the correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She studied Biology and Chemistry.',
       'She studied biology and chemistry.',
@@ -3366,6 +3622,7 @@ export const questionBank: Question[] = [
     id: 256,
     category: 'Mechanics',
     question: 'Choose the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Harrass',
       'Harass',
@@ -3379,6 +3636,7 @@ export const questionBank: Question[] = [
     id: 257,
     category: 'Mechanics',
     question: 'Select the correctly punctuated sentence:',
+    instruction: 'Select the option that follows standard mechanics conventions.',
     options: [
       'The meeting which lasted three hours was productive.',
       'The meeting, which lasted three hours was productive.',
@@ -3392,6 +3650,7 @@ export const questionBank: Question[] = [
     id: 258,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Supercede',
       'Supersede',
@@ -3405,6 +3664,7 @@ export const questionBank: Question[] = [
     id: 259,
     category: 'Mechanics',
     question: 'Choose the correct capitalization:',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The President addressed the Nation.',
       'The president addressed the nation.',
@@ -3418,6 +3678,7 @@ export const questionBank: Question[] = [
     id: 260,
     category: 'Mechanics',
     question: 'Select the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'Mispell',
       'Misspell',
@@ -3433,6 +3694,7 @@ export const questionBank: Question[] = [
     id: 261,
     category: 'Vocabulary',
     question: 'The _____ student challenged every assumption presented.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'complacent',
       'iconoclastic',
@@ -3446,6 +3708,7 @@ export const questionBank: Question[] = [
     id: 262,
     category: 'Vocabulary',
     question: 'The writer\'s _____ style made the complex topic accessible.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'abstruse',
       'recondite',
@@ -3459,6 +3722,7 @@ export const questionBank: Question[] = [
     id: 263,
     category: 'Vocabulary',
     question: 'His _____ adherence to rules frustrated creative team members.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'flexible',
       'dogmatic',
@@ -3472,6 +3736,7 @@ export const questionBank: Question[] = [
     id: 264,
     category: 'Vocabulary',
     question: 'The _____ of her argument impressed the debate judges.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'weakness',
       'fallacy',
@@ -3485,6 +3750,7 @@ export const questionBank: Question[] = [
     id: 265,
     category: 'Vocabulary',
     question: 'The researcher\'s _____ claims required substantial evidence.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'modest',
       'grandiose',
@@ -3498,6 +3764,7 @@ export const questionBank: Question[] = [
     id: 266,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ manner alienated the audience.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'affable',
       'arrogant',
@@ -3511,6 +3778,7 @@ export const questionBank: Question[] = [
     id: 267,
     category: 'Vocabulary',
     question: 'The _____ testimony contradicted physical evidence.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'veracious',
       'mendacious',
@@ -3524,6 +3792,7 @@ export const questionBank: Question[] = [
     id: 268,
     category: 'Vocabulary',
     question: 'The committee\'s _____ decision disappointed stakeholders.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'prudent',
       'judicious',
@@ -3537,6 +3806,7 @@ export const questionBank: Question[] = [
     id: 269,
     category: 'Vocabulary',
     question: 'The author\'s _____ prose captivated readers.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'turgid',
       'lyrical',
@@ -3550,6 +3820,7 @@ export const questionBank: Question[] = [
     id: 270,
     category: 'Vocabulary',
     question: 'The _____ nature of the agreement caused disputes.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'explicit',
       'ambiguous',
@@ -3563,6 +3834,7 @@ export const questionBank: Question[] = [
     id: 271,
     category: 'Vocabulary',
     question: 'The _____ between the two accounts raised suspicions.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'congruence',
       'harmony',
@@ -3576,6 +3848,7 @@ export const questionBank: Question[] = [
     id: 272,
     category: 'Vocabulary',
     question: 'Her _____ objections delayed the proceedings.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'relevant',
       'frivolous',
@@ -3589,6 +3862,7 @@ export const questionBank: Question[] = [
     id: 273,
     category: 'Vocabulary',
     question: 'The _____ professor commanded respect from all students.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'mediocre',
       'venerable',
@@ -3602,6 +3876,7 @@ export const questionBank: Question[] = [
     id: 274,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ delivery compensated for weak content.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'lackluster',
       'dynamic',
@@ -3615,6 +3890,7 @@ export const questionBank: Question[] = [
     id: 275,
     category: 'Vocabulary',
     question: 'The _____ decision proved costly in retrospect.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'prudent',
       'hasty',
@@ -3628,6 +3904,7 @@ export const questionBank: Question[] = [
     id: 276,
     category: 'Vocabulary',
     question: 'His _____ personality made him popular at social events.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'withdrawn',
       'gregarious',
@@ -3641,6 +3918,7 @@ export const questionBank: Question[] = [
     id: 277,
     category: 'Vocabulary',
     question: 'The _____ conditions in the laboratory ensured accurate results.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'haphazard',
       'pristine',
@@ -3654,6 +3932,7 @@ export const questionBank: Question[] = [
     id: 278,
     category: 'Vocabulary',
     question: 'The politician\'s _____ remarks sparked controversy.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'diplomatic',
       'tactful',
@@ -3667,6 +3946,7 @@ export const questionBank: Question[] = [
     id: 279,
     category: 'Vocabulary',
     question: 'The _____ nature of academic work requires patience.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'spontaneous',
       'tedious',
@@ -3680,6 +3960,7 @@ export const questionBank: Question[] = [
     id: 280,
     category: 'Vocabulary',
     question: 'The company\'s _____ approach to innovation stifled growth.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'progressive',
       'conservative',
@@ -3693,6 +3974,7 @@ export const questionBank: Question[] = [
     id: 281,
     category: 'Vocabulary',
     question: 'The _____ scholar contributed significantly to the field.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'dilettante',
       'preeminent',
@@ -3706,6 +3988,7 @@ export const questionBank: Question[] = [
     id: 282,
     category: 'Vocabulary',
     question: 'The _____ of his response left everyone confused.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'clarity',
       'vagueness',
@@ -3719,6 +4002,7 @@ export const questionBank: Question[] = [
     id: 283,
     category: 'Vocabulary',
     question: 'The author\'s _____ wit delighted readers.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'dull',
       'trenchant',
@@ -3732,6 +4016,7 @@ export const questionBank: Question[] = [
     id: 284,
     category: 'Vocabulary',
     question: 'The _____ instructions led to multiple errors.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'explicit',
       'equivocal',
@@ -3745,6 +4030,7 @@ export const questionBank: Question[] = [
     id: 285,
     category: 'Vocabulary',
     question: 'Her _____ demeanor put everyone at ease.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'hostile',
       'affable',
@@ -3758,6 +4044,7 @@ export const questionBank: Question[] = [
     id: 286,
     category: 'Vocabulary',
     question: 'The _____ scientist rejected conventional wisdom.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'orthodox',
       'maverick',
@@ -3771,6 +4058,7 @@ export const questionBank: Question[] = [
     id: 287,
     category: 'Vocabulary',
     question: 'The _____ of the situation demanded immediate action.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'triviality',
       'urgency',
@@ -3784,6 +4072,7 @@ export const questionBank: Question[] = [
     id: 288,
     category: 'Vocabulary',
     question: 'The _____ critique offered no constructive suggestions.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'helpful',
       'caustic',
@@ -3797,6 +4086,7 @@ export const questionBank: Question[] = [
     id: 289,
     category: 'Vocabulary',
     question: 'The document\'s _____ provisions allowed for interpretation.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'rigid',
       'flexible',
@@ -3810,6 +4100,7 @@ export const questionBank: Question[] = [
     id: 290,
     category: 'Vocabulary',
     question: 'The _____ narrative captivated audiences worldwide.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'boring',
       'compelling',
@@ -3823,6 +4114,7 @@ export const questionBank: Question[] = [
     id: 291,
     category: 'Vocabulary',
     question: 'His _____ behavior contradicted his stated principles.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'consistent',
       'hypocritical',
@@ -3836,6 +4128,7 @@ export const questionBank: Question[] = [
     id: 292,
     category: 'Vocabulary',
     question: 'The _____ policy protected individual rights.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'oppressive',
       'liberal',
@@ -3849,6 +4142,7 @@ export const questionBank: Question[] = [
     id: 293,
     category: 'Vocabulary',
     question: 'The researcher\'s _____ attention to detail ensured accuracy.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'careless',
       'fastidious',
@@ -3862,6 +4156,7 @@ export const questionBank: Question[] = [
     id: 294,
     category: 'Vocabulary',
     question: 'The _____ of supporters bolstered the candidate\'s confidence.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'scarcity',
       'multitude',
@@ -3875,6 +4170,7 @@ export const questionBank: Question[] = [
     id: 295,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ tone suggested disrespect.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'respectful',
       'contemptuous',
@@ -3888,6 +4184,7 @@ export const questionBank: Question[] = [
     id: 296,
     category: 'Vocabulary',
     question: 'The _____ solution addressed all concerns effectively.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'inadequate',
       'comprehensive',
@@ -3901,6 +4198,7 @@ export const questionBank: Question[] = [
     id: 297,
     category: 'Vocabulary',
     question: 'His _____ character earned universal admiration.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'dubious',
       'impeccable',
@@ -3914,6 +4212,7 @@ export const questionBank: Question[] = [
     id: 298,
     category: 'Vocabulary',
     question: 'The _____ of the proposal hindered its acceptance.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'feasibility',
       'implausibility',
@@ -3927,6 +4226,7 @@ export const questionBank: Question[] = [
     id: 299,
     category: 'Vocabulary',
     question: 'The _____ performance exceeded all expectations.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'mediocre',
       'stellar',
@@ -3940,6 +4240,7 @@ export const questionBank: Question[] = [
     id: 300,
     category: 'Vocabulary',
     question: 'The committee voted to _____ the outdated regulation.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'maintain',
       'repeal',
@@ -3953,6 +4254,7 @@ export const questionBank: Question[] = [
     id: 301,
     category: 'Vocabulary',
     question: 'The _____ review praised every aspect of the book.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'critical',
       'laudatory',
@@ -3966,6 +4268,7 @@ export const questionBank: Question[] = [
     id: 302,
     category: 'Vocabulary',
     question: 'His _____ lifestyle left him financially secure.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'extravagant',
       'frugal',
@@ -3979,6 +4282,7 @@ export const questionBank: Question[] = [
     id: 303,
     category: 'Vocabulary',
     question: 'The _____ debate clarified complex issues.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'confusing',
       'illuminating',
@@ -3992,6 +4296,7 @@ export const questionBank: Question[] = [
     id: 304,
     category: 'Vocabulary',
     question: 'The _____ agreement satisfied all parties involved.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'contentious',
       'equitable',
@@ -4005,6 +4310,7 @@ export const questionBank: Question[] = [
     id: 305,
     category: 'Vocabulary',
     question: 'The researcher\'s _____ findings challenged existing theories.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'conventional',
       'groundbreaking',
@@ -4018,6 +4324,7 @@ export const questionBank: Question[] = [
     id: 306,
     category: 'Vocabulary',
     question: 'The _____ of the crime shocked the community.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'insignificance',
       'enormity',
@@ -4031,6 +4338,7 @@ export const questionBank: Question[] = [
     id: 307,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ comments offended many attendees.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'tactful',
       'insensitive',
@@ -4044,6 +4352,7 @@ export const questionBank: Question[] = [
     id: 308,
     category: 'Vocabulary',
     question: 'The _____ leader adapted quickly to changing circumstances.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'rigid',
       'pragmatic',
@@ -4057,6 +4366,7 @@ export const questionBank: Question[] = [
     id: 309,
     category: 'Vocabulary',
     question: 'The _____ of the manuscript required extensive editing.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'coherence',
       'incoherence',
@@ -4070,6 +4380,7 @@ export const questionBank: Question[] = [
     id: 310,
     category: 'Vocabulary',
     question: 'The _____ senator commanded bipartisan respect.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'divisive',
       'venerated',
@@ -4083,6 +4394,7 @@ export const questionBank: Question[] = [
     id: 311,
     category: 'Vocabulary',
     question: 'The _____ approach yielded better results than expected.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'conventional',
       'innovative',
@@ -4096,6 +4408,7 @@ export const questionBank: Question[] = [
     id: 312,
     category: 'Vocabulary',
     question: 'The _____ evidence undermined the defense\'s case.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'weak',
       'incontrovertible',
@@ -4109,6 +4422,7 @@ export const questionBank: Question[] = [
     id: 313,
     category: 'Vocabulary',
     question: 'Her _____ dedication inspired colleagues to excel.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'halfhearted',
       'unwavering',
@@ -4122,6 +4436,7 @@ export const questionBank: Question[] = [
     id: 314,
     category: 'Vocabulary',
     question: 'The _____ politician avoided taking clear positions.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'forthright',
       'equivocating',
@@ -4135,6 +4450,7 @@ export const questionBank: Question[] = [
     id: 315,
     category: 'Vocabulary',
     question: 'The _____ atmosphere fostered creativity and innovation.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'stifling',
       'vibrant',
@@ -4148,6 +4464,7 @@ export const questionBank: Question[] = [
     id: 316,
     category: 'Vocabulary',
     question: 'The _____ of the ancient text challenged translators.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'clarity',
       'obscurity',
@@ -4161,6 +4478,7 @@ export const questionBank: Question[] = [
     id: 317,
     category: 'Vocabulary',
     question: 'The professor\'s _____ knowledge amazed students.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'limited',
       'encyclopedic',
@@ -4174,6 +4492,7 @@ export const questionBank: Question[] = [
     id: 318,
     category: 'Vocabulary',
     question: 'The _____ witness testified reluctantly under pressure.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'willing',
       'recalcitrant',
@@ -4187,6 +4506,7 @@ export const questionBank: Question[] = [
     id: 319,
     category: 'Vocabulary',
     question: 'The _____ of the proposal ensured smooth implementation.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'complexity',
       'simplicity',
@@ -4200,6 +4520,7 @@ export const questionBank: Question[] = [
     id: 320,
     category: 'Vocabulary',
     question: 'The _____ scholar published over fifty groundbreaking papers.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'mediocre',
       'prolific',
@@ -4215,6 +4536,7 @@ export const questionBank: Question[] = [
     id: 321,
     category: 'Concord',
     question: 'The range of possibilities _____ endless.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'seem',
       'seems',
@@ -4228,6 +4550,7 @@ export const questionBank: Question[] = [
     id: 322,
     category: 'Concord',
     question: 'Fifty kilometers _____ too far to walk in one day.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4241,6 +4564,7 @@ export const questionBank: Question[] = [
     id: 323,
     category: 'Concord',
     question: 'The bacteria _____ multiplying rapidly in the culture.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4254,6 +4578,7 @@ export const questionBank: Question[] = [
     id: 324,
     category: 'Concord',
     question: 'Every book and article _____ been thoroughly reviewed.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -4267,6 +4592,7 @@ export const questionBank: Question[] = [
     id: 325,
     category: 'Concord',
     question: 'Neither the results nor the conclusion _____ satisfactory.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'were',
       'was',
@@ -4280,6 +4606,7 @@ export const questionBank: Question[] = [
     id: 326,
     category: 'Concord',
     question: 'The alumni _____ gathering for the reunion next month.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4293,6 +4620,7 @@ export const questionBank: Question[] = [
     id: 327,
     category: 'Concord',
     question: 'Two-thirds of the students _____ passed the examination.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -4306,6 +4634,7 @@ export const questionBank: Question[] = [
     id: 328,
     category: 'Concord',
     question: 'The proceeds from the sale _____ donated to charity.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4319,6 +4648,7 @@ export const questionBank: Question[] = [
     id: 329,
     category: 'Concord',
     question: 'Either the CEO or the board members _____ responsible.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'is',
       'are',
@@ -4332,6 +4662,7 @@ export const questionBank: Question[] = [
     id: 330,
     category: 'Concord',
     question: 'The goods _____ arrived at the warehouse yesterday.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -4345,6 +4676,7 @@ export const questionBank: Question[] = [
     id: 331,
     category: 'Concord',
     question: 'Statistics _____ an important tool for researchers.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4358,6 +4690,7 @@ export const questionBank: Question[] = [
     id: 332,
     category: 'Concord',
     question: 'The offspring of the species _____ identical to the parents.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4371,6 +4704,7 @@ export const questionBank: Question[] = [
     id: 333,
     category: 'Concord',
     question: 'A series of experiments _____ conducted last year.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4384,6 +4718,7 @@ export const questionBank: Question[] = [
     id: 334,
     category: 'Concord',
     question: 'The athletics program _____ received additional funding.',
+    instruction: 'Determine whether the collective noun is acting as a single unit (singular) or as individuals (plural).',
     options: [
       'have',
       'has',
@@ -4397,6 +4732,7 @@ export const questionBank: Question[] = [
     id: 335,
     category: 'Concord',
     question: 'Neither of the proposals _____ adequate funding.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'have',
       'has',
@@ -4410,6 +4746,7 @@ export const questionBank: Question[] = [
     id: 336,
     category: 'Concord',
     question: 'The means of transportation _____ limited in rural areas.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4423,6 +4760,7 @@ export const questionBank: Question[] = [
     id: 337,
     category: 'Concord',
     question: 'The analyses _____ revealed significant patterns.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -4436,6 +4774,7 @@ export const questionBank: Question[] = [
     id: 338,
     category: 'Concord',
     question: 'Each of the participants _____ given a certificate.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4449,6 +4788,7 @@ export const questionBank: Question[] = [
     id: 339,
     category: 'Concord',
     question: 'The whereabouts of the suspect _____ unknown.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4462,6 +4802,7 @@ export const questionBank: Question[] = [
     id: 340,
     category: 'Concord',
     question: 'The thesis _____ defended successfully yesterday.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4475,6 +4816,7 @@ export const questionBank: Question[] = [
     id: 341,
     category: 'Concord',
     question: 'Seventy-five dollars _____ the cost of membership.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4488,6 +4830,7 @@ export const questionBank: Question[] = [
     id: 342,
     category: 'Concord',
     question: 'The appendices _____ additional information.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'contains',
       'contain',
@@ -4501,6 +4844,7 @@ export const questionBank: Question[] = [
     id: 343,
     category: 'Concord',
     question: 'The fish in the aquarium _____ various species.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'represents',
       'represent',
@@ -4514,6 +4858,7 @@ export const questionBank: Question[] = [
     id: 344,
     category: 'Concord',
     question: 'Mathematics, along with physics, _____ required for the program.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4527,6 +4872,7 @@ export const questionBank: Question[] = [
     id: 345,
     category: 'Concord',
     question: 'A number of issues _____ still unresolved.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4540,6 +4886,7 @@ export const questionBank: Question[] = [
     id: 346,
     category: 'Concord',
     question: 'The premises _____ thoroughly inspected last week.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4553,6 +4900,7 @@ export const questionBank: Question[] = [
     id: 347,
     category: 'Concord',
     question: 'One-third of the budget _____ allocated to research.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4566,6 +4914,7 @@ export const questionBank: Question[] = [
     id: 348,
     category: 'Concord',
     question: 'The strata of rock _____ clearly visible.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4579,6 +4928,7 @@ export const questionBank: Question[] = [
     id: 349,
     category: 'Concord',
     question: 'None of the information _____ accurate.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4592,6 +4942,7 @@ export const questionBank: Question[] = [
     id: 350,
     category: 'Concord',
     question: 'The wages of employees _____ increased this year.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -4605,6 +4956,7 @@ export const questionBank: Question[] = [
     id: 351,
     category: 'Concord',
     question: 'Either the students or the instructor _____ mistaken.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'are',
       'is',
@@ -4618,6 +4970,7 @@ export const questionBank: Question[] = [
     id: 352,
     category: 'Concord',
     question: 'The corps of engineers _____ completed the project.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -4631,6 +4984,7 @@ export const questionBank: Question[] = [
     id: 353,
     category: 'Concord',
     question: 'Forty percent of the workforce _____ remote employees.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4644,6 +4998,7 @@ export const questionBank: Question[] = [
     id: 354,
     category: 'Concord',
     question: 'The ethics of the decision _____ questionable.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4657,6 +5012,7 @@ export const questionBank: Question[] = [
     id: 355,
     category: 'Concord',
     question: 'A great deal of effort _____ invested in the research.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4670,6 +5026,7 @@ export const questionBank: Question[] = [
     id: 356,
     category: 'Concord',
     question: 'The stimulus _____ produced unexpected results.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -4683,6 +5040,7 @@ export const questionBank: Question[] = [
     id: 357,
     category: 'Concord',
     question: 'Neither rain nor snow _____ the delivery schedule.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'affect',
       'affects',
@@ -4696,6 +5054,7 @@ export const questionBank: Question[] = [
     id: 358,
     category: 'Concord',
     question: 'The customs procedures _____ time-consuming.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4709,6 +5068,7 @@ export const questionBank: Question[] = [
     id: 359,
     category: 'Concord',
     question: 'The remains of the ancient city _____ discovered recently.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4722,6 +5082,7 @@ export const questionBank: Question[] = [
     id: 360,
     category: 'Concord',
     question: 'Each student and teacher _____ required to attend.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4735,6 +5096,7 @@ export const questionBank: Question[] = [
     id: 361,
     category: 'Concord',
     question: 'The clergy _____ divided on the issue.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4748,6 +5110,7 @@ export const questionBank: Question[] = [
     id: 362,
     category: 'Concord',
     question: 'Three hours _____ sufficient time for the examination.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4761,6 +5124,7 @@ export const questionBank: Question[] = [
     id: 363,
     category: 'Concord',
     question: 'The pliers _____ in the toolbox.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4774,6 +5138,7 @@ export const questionBank: Question[] = [
     id: 364,
     category: 'Concord',
     question: 'More than one solution _____ been proposed.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'have',
       'has',
@@ -4787,6 +5152,7 @@ export const questionBank: Question[] = [
     id: 365,
     category: 'Concord',
     question: 'The crossroads _____ a strategic location.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4800,6 +5166,7 @@ export const questionBank: Question[] = [
     id: 366,
     category: 'Concord',
     question: 'The hypotheses _____ tested systematically.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4813,6 +5180,7 @@ export const questionBank: Question[] = [
     id: 367,
     category: 'Concord',
     question: 'A flock of birds _____ flying overhead.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4826,6 +5194,7 @@ export const questionBank: Question[] = [
     id: 368,
     category: 'Concord',
     question: 'The genetics of the population _____ being studied.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4839,6 +5208,7 @@ export const questionBank: Question[] = [
     id: 369,
     category: 'Concord',
     question: 'Neither the manager nor the supervisors _____ aware.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'was',
       'were',
@@ -4852,6 +5222,7 @@ export const questionBank: Question[] = [
     id: 370,
     category: 'Concord',
     question: 'The oasis in the desert _____ a welcome sight.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4865,6 +5236,7 @@ export const questionBank: Question[] = [
     id: 371,
     category: 'Concord',
     question: 'The curricula of both programs _____ similar.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4878,6 +5250,7 @@ export const questionBank: Question[] = [
     id: 372,
     category: 'Concord',
     question: 'Fifty pounds of grain _____ stored in the silo.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4891,6 +5264,7 @@ export const questionBank: Question[] = [
     id: 373,
     category: 'Concord',
     question: 'The acoustics in the hall _____ excellent.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -4904,6 +5278,7 @@ export const questionBank: Question[] = [
     id: 374,
     category: 'Concord',
     question: 'A variety of methods _____ employed in the study.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4917,6 +5292,7 @@ export const questionBank: Question[] = [
     id: 375,
     category: 'Concord',
     question: 'The species _____ endangered.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -4930,6 +5306,7 @@ export const questionBank: Question[] = [
     id: 376,
     category: 'Concord',
     question: 'The memoranda _____ distributed to all staff.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4943,6 +5320,7 @@ export const questionBank: Question[] = [
     id: 377,
     category: 'Concord',
     question: 'Half of the participants _____ completed the survey.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'has',
       'have',
@@ -4956,6 +5334,7 @@ export const questionBank: Question[] = [
     id: 378,
     category: 'Concord',
     question: 'The diagnosis _____ confirmed by multiple tests.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -4969,6 +5348,7 @@ export const questionBank: Question[] = [
     id: 379,
     category: 'Concord',
     question: 'Either you or I _____ responsible for the error.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'are',
       'am',
@@ -4982,6 +5362,7 @@ export const questionBank: Question[] = [
     id: 380,
     category: 'Concord',
     question: 'The majority of the votes _____ in favor of the motion.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -4995,6 +5376,7 @@ export const questionBank: Question[] = [
     id: 381,
     category: 'Concord',
     question: 'The trousers _____ too long.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -5008,6 +5390,7 @@ export const questionBank: Question[] = [
     id: 382,
     category: 'Concord',
     question: 'Every man, woman, and child _____ welcome.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -5021,6 +5404,7 @@ export const questionBank: Question[] = [
     id: 383,
     category: 'Concord',
     question: 'The nuclei of the cells _____ clearly visible.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -5034,6 +5418,7 @@ export const questionBank: Question[] = [
     id: 384,
     category: 'Concord',
     question: 'The shears _____ sharpened recently.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -5047,6 +5432,7 @@ export const questionBank: Question[] = [
     id: 385,
     category: 'Concord',
     question: 'None of the evidence _____ conclusive.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -5060,6 +5446,7 @@ export const questionBank: Question[] = [
     id: 386,
     category: 'Concord',
     question: 'The crises _____ managed effectively.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -5073,6 +5460,7 @@ export const questionBank: Question[] = [
     id: 387,
     category: 'Concord',
     question: 'The basis of the argument _____ flawed.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -5086,6 +5474,7 @@ export const questionBank: Question[] = [
     id: 388,
     category: 'Concord',
     question: 'The glasses _____ on the table.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -5099,6 +5488,7 @@ export const questionBank: Question[] = [
     id: 389,
     category: 'Concord',
     question: 'Neither the theory nor the experiments _____ support the hypothesis.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'supports',
       'support',
@@ -5112,6 +5502,7 @@ export const questionBank: Question[] = [
     id: 390,
     category: 'Concord',
     question: 'The archives _____ historical documents.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'contains',
       'contain',
@@ -5125,6 +5516,7 @@ export const questionBank: Question[] = [
     id: 391,
     category: 'Concord',
     question: 'Thirty minutes _____ allotted for each presentation.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -5138,6 +5530,7 @@ export const questionBank: Question[] = [
     id: 392,
     category: 'Concord',
     question: 'The fungi _____ growing rapidly.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -5151,6 +5544,7 @@ export const questionBank: Question[] = [
     id: 393,
     category: 'Concord',
     question: 'A pair of gloves _____ left on the bench.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -5164,6 +5558,7 @@ export const questionBank: Question[] = [
     id: 394,
     category: 'Concord',
     question: 'The means by which success _____ achieved vary.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -5177,6 +5572,7 @@ export const questionBank: Question[] = [
     id: 395,
     category: 'Concord',
     question: 'The synopsis _____ helpful for understanding the book.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -5190,6 +5586,7 @@ export const questionBank: Question[] = [
     id: 396,
     category: 'Concord',
     question: 'Ninety percent of the work _____ completed.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'were',
       'was',
@@ -5203,6 +5600,7 @@ export const questionBank: Question[] = [
     id: 397,
     category: 'Concord',
     question: 'The larvae _____ developing into adults.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'is',
       'are',
@@ -5216,6 +5614,7 @@ export const questionBank: Question[] = [
     id: 398,
     category: 'Concord',
     question: 'Either the book or the articles _____ required reading.',
+    instruction: 'Apply the rule of proximity - the verb should agree with the nearest subject.',
     options: [
       'is',
       'are',
@@ -5229,6 +5628,7 @@ export const questionBank: Question[] = [
     id: 399,
     category: 'Concord',
     question: 'The axis of rotation _____ clearly marked.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'are',
       'is',
@@ -5242,6 +5642,7 @@ export const questionBank: Question[] = [
     id: 400,
     category: 'Concord',
     question: 'The contents of the report _____ surprising.',
+    instruction: 'Choose the verb form that agrees with the subject in number and person.',
     options: [
       'was',
       'were',
@@ -5257,6 +5658,7 @@ export const questionBank: Question[] = [
     id: 401,
     category: 'Parallelism',
     question: 'The project requires careful planning, thorough research, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to execute precisely',
       'precise execution',
@@ -5270,6 +5672,7 @@ export const questionBank: Question[] = [
     id: 402,
     category: 'Parallelism',
     question: 'She enjoys swimming, cycling, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to run',
       'runs',
@@ -5283,6 +5686,7 @@ export const questionBank: Question[] = [
     id: 403,
     category: 'Parallelism',
     question: 'The instructor explained the concept, demonstrated the technique, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'answering questions',
       'answered questions',
@@ -5296,6 +5700,7 @@ export const questionBank: Question[] = [
     id: 404,
     category: 'Parallelism',
     question: 'The position demands someone who is reliable, who is creative, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'has initiative',
       'with initiative',
@@ -5309,6 +5714,7 @@ export const questionBank: Question[] = [
     id: 405,
     category: 'Parallelism',
     question: 'Effective communication requires not only speaking clearly but also _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to listen actively',
       'listening actively',
@@ -5322,6 +5728,7 @@ export const questionBank: Question[] = [
     id: 406,
     category: 'Parallelism',
     question: 'The research involved collecting data, analyzing results, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to draw conclusions',
       'drawing conclusions',
@@ -5335,6 +5742,7 @@ export const questionBank: Question[] = [
     id: 407,
     category: 'Parallelism',
     question: 'The manager is responsible for hiring staff, training employees, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to evaluate performance',
       'evaluating performance',
@@ -5348,6 +5756,7 @@ export const questionBank: Question[] = [
     id: 408,
     category: 'Parallelism',
     question: 'He is known for his intelligence, his dedication, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'being creative',
       'his creativity',
@@ -5361,6 +5770,7 @@ export const questionBank: Question[] = [
     id: 409,
     category: 'Parallelism',
     question: 'The study aimed to identify problems, to propose solutions, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'implementing changes',
       'to implement changes',
@@ -5374,6 +5784,7 @@ export const questionBank: Question[] = [
     id: 410,
     category: 'Parallelism',
     question: 'She prefers reading books to _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'watch movies',
       'watching movies',
@@ -5387,6 +5798,7 @@ export const questionBank: Question[] = [
     id: 411,
     category: 'Parallelism',
     question: 'The company values honesty, integrity, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'being accountable',
       'accountability',
@@ -5400,6 +5812,7 @@ export const questionBank: Question[] = [
     id: 412,
     category: 'Parallelism',
     question: 'To succeed, you must work hard, stay focused, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'maintaining motivation',
       'maintain motivation',
@@ -5413,6 +5826,7 @@ export const questionBank: Question[] = [
     id: 413,
     category: 'Parallelism',
     question: 'The workshop covered writing effectively, speaking confidently, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to present professionally',
       'presenting professionally',
@@ -5426,6 +5840,7 @@ export const questionBank: Question[] = [
     id: 414,
     category: 'Parallelism',
     question: 'Neither the preparation nor the _____ was adequate.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'executing',
       'execution',
@@ -5439,6 +5854,7 @@ export const questionBank: Question[] = [
     id: 415,
     category: 'Parallelism',
     question: 'The athlete trains by running daily, lifting weights regularly, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'she swims weekly',
       'swimming weekly',
@@ -5452,6 +5868,7 @@ export const questionBank: Question[] = [
     id: 416,
     category: 'Parallelism',
     question: 'The advantages of the plan include cost savings, time efficiency, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'improving quality',
       'quality improvement',
@@ -5465,6 +5882,7 @@ export const questionBank: Question[] = [
     id: 417,
     category: 'Parallelism',
     question: 'She is skilled at designing graphics, writing content, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to manage projects',
       'managing projects',
@@ -5478,6 +5896,7 @@ export const questionBank: Question[] = [
     id: 418,
     category: 'Parallelism',
     question: 'The process involves initial assessment, detailed planning, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to implement systematically',
       'systematic implementation',
@@ -5491,6 +5910,7 @@ export const questionBank: Question[] = [
     id: 419,
     category: 'Parallelism',
     question: 'He was praised for his innovation, his perseverance, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'leading effectively',
       'his leadership',
@@ -5504,6 +5924,7 @@ export const questionBank: Question[] = [
     id: 420,
     category: 'Parallelism',
     question: 'The goals are to increase revenue, to reduce costs, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'improving efficiency',
       'to improve efficiency',
@@ -5517,6 +5938,7 @@ export const questionBank: Question[] = [
     id: 421,
     category: 'Parallelism',
     question: 'The committee reviewed the proposal, discussed the implications, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'making recommendations',
       'made recommendations',
@@ -5530,6 +5952,7 @@ export const questionBank: Question[] = [
     id: 422,
     category: 'Parallelism',
     question: 'They succeeded through hard work, careful planning, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'they persisted',
       'persistent effort',
@@ -5543,6 +5966,7 @@ export const questionBank: Question[] = [
     id: 423,
     category: 'Parallelism',
     question: 'The program teaches students to think critically, to write clearly, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'communicating effectively',
       'to communicate effectively',
@@ -5556,6 +5980,7 @@ export const questionBank: Question[] = [
     id: 424,
     category: 'Parallelism',
     question: 'She contributes by sharing ideas, offering feedback, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to support colleagues',
       'supporting colleagues',
@@ -5569,6 +5994,7 @@ export const questionBank: Question[] = [
     id: 425,
     category: 'Parallelism',
     question: 'The challenges include limited resources, tight deadlines, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'high expectations exist',
       'high expectations',
@@ -5582,6 +6008,7 @@ export const questionBank: Question[] = [
     id: 426,
     category: 'Parallelism',
     question: 'Effective leadership requires vision, courage, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to be decisive',
       'decisiveness',
@@ -5595,6 +6022,7 @@ export const questionBank: Question[] = [
     id: 427,
     category: 'Parallelism',
     question: 'The course covers basic concepts, advanced techniques, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'applying practically',
       'practical application',
@@ -5608,6 +6036,7 @@ export const questionBank: Question[] = [
     id: 428,
     category: 'Parallelism',
     question: 'The scientist hypothesized, experimented, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'drawing conclusions',
       'concluded',
@@ -5621,6 +6050,7 @@ export const questionBank: Question[] = [
     id: 429,
     category: 'Parallelism',
     question: 'They improved by practicing regularly, seeking feedback, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to refine techniques',
       'refining techniques',
@@ -5634,6 +6064,7 @@ export const questionBank: Question[] = [
     id: 430,
     category: 'Parallelism',
     question: 'The qualities sought include reliability, flexibility, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'being adaptable',
       'adaptability',
@@ -5647,6 +6078,7 @@ export const questionBank: Question[] = [
     id: 431,
     category: 'Parallelism',
     question: 'The presentation was informative, engaging, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'inspired people',
       'inspirational',
@@ -5660,6 +6092,7 @@ export const questionBank: Question[] = [
     id: 432,
     category: 'Parallelism',
     question: 'Success depends on setting goals, developing strategies, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to maintain focus',
       'maintaining focus',
@@ -5673,6 +6106,7 @@ export const questionBank: Question[] = [
     id: 433,
     category: 'Parallelism',
     question: 'The report is comprehensive, accurate, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'presenting well',
       'well-presented',
@@ -5686,6 +6120,7 @@ export const questionBank: Question[] = [
     id: 434,
     category: 'Parallelism',
     question: 'The responsibilities include managing budgets, supervising staff, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to coordinate projects',
       'coordinating projects',
@@ -5699,6 +6134,7 @@ export const questionBank: Question[] = [
     id: 435,
     category: 'Parallelism',
     question: 'The solution is practical, cost-effective, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'implementing easily',
       'easy to implement',
@@ -5712,6 +6148,7 @@ export const questionBank: Question[] = [
     id: 436,
     category: 'Parallelism',
     question: 'The benefits include increased productivity, improved morale, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'reducing turnover',
       'reduced turnover',
@@ -5725,6 +6162,7 @@ export const questionBank: Question[] = [
     id: 437,
     category: 'Parallelism',
     question: 'She excels at problem-solving, decision-making, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to communicate',
       'communication',
@@ -5738,6 +6176,7 @@ export const questionBank: Question[] = [
     id: 438,
     category: 'Parallelism',
     question: 'The team demonstrated creativity, collaboration, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'committing to excellence',
       'commitment',
@@ -5751,6 +6190,7 @@ export const questionBank: Question[] = [
     id: 439,
     category: 'Parallelism',
     question: 'Learning occurs through observation, practice, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to reflect',
       'reflection',
@@ -5764,6 +6204,7 @@ export const questionBank: Question[] = [
     id: 440,
     category: 'Parallelism',
     question: 'The strategy involves identifying opportunities, assessing risks, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to allocate resources',
       'allocating resources',
@@ -5777,6 +6218,7 @@ export const questionBank: Question[] = [
     id: 441,
     category: 'Parallelism',
     question: 'The product is innovative, reliable, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'affords well',
       'affordable',
@@ -5790,6 +6232,7 @@ export const questionBank: Question[] = [
     id: 442,
     category: 'Parallelism',
     question: 'The objectives are to enhance quality, to streamline processes, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'maximizing value',
       'to maximize value',
@@ -5803,6 +6246,7 @@ export const questionBank: Question[] = [
     id: 443,
     category: 'Parallelism',
     question: 'Productivity increases through automation, optimization, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'integrating systems',
       'integration',
@@ -5816,6 +6260,7 @@ export const questionBank: Question[] = [
     id: 444,
     category: 'Parallelism',
     question: 'The approach is systematic, thorough, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'documents well',
       'well-documented',
@@ -5829,6 +6274,7 @@ export const questionBank: Question[] = [
     id: 445,
     category: 'Parallelism',
     question: 'The requirements include technical skills, professional experience, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'demonstrating leadership',
       'leadership ability',
@@ -5842,6 +6288,7 @@ export const questionBank: Question[] = [
     id: 446,
     category: 'Parallelism',
     question: 'Employees appreciate recognition, advancement opportunities, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'receiving feedback',
       'feedback',
@@ -5855,6 +6302,7 @@ export const questionBank: Question[] = [
     id: 447,
     category: 'Parallelism',
     question: 'The framework supports planning, implementation, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to evaluate',
       'evaluation',
@@ -5868,6 +6316,7 @@ export const questionBank: Question[] = [
     id: 448,
     category: 'Parallelism',
     question: 'The solution proved efficient, scalable, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'sustaining',
       'sustainable',
@@ -5881,6 +6330,7 @@ export const questionBank: Question[] = [
     id: 449,
     category: 'Parallelism',
     question: 'The initiative focuses on reducing waste, conserving energy, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to promote sustainability',
       'promoting sustainability',
@@ -5894,6 +6344,7 @@ export const questionBank: Question[] = [
     id: 450,
     category: 'Parallelism',
     question: 'The design is modern, functional, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'appeals aesthetically',
       'aesthetically appealing',
@@ -5907,6 +6358,7 @@ export const questionBank: Question[] = [
     id: 451,
     category: 'Parallelism',
     question: 'The priorities are customer satisfaction, employee engagement, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'growing sustainably',
       'sustainable growth',
@@ -5920,6 +6372,7 @@ export const questionBank: Question[] = [
     id: 452,
     category: 'Parallelism',
     question: 'The consultant advised analyzing data, identifying trends, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to recommend actions',
       'recommending actions',
@@ -5933,6 +6386,7 @@ export const questionBank: Question[] = [
     id: 453,
     category: 'Parallelism',
     question: 'The candidate demonstrated intelligence, maturity, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'being enthusiastic',
       'enthusiasm',
@@ -5946,6 +6400,7 @@ export const questionBank: Question[] = [
     id: 454,
     category: 'Parallelism',
     question: 'The method is proven, tested, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'people trust it',
       'trusted',
@@ -5959,6 +6414,7 @@ export const questionBank: Question[] = [
     id: 455,
     category: 'Parallelism',
     question: 'The outcomes include better results, greater efficiency, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'satisfaction increases',
       'increased satisfaction',
@@ -5972,6 +6428,7 @@ export const questionBank: Question[] = [
     id: 456,
     category: 'Parallelism',
     question: 'The principles emphasize transparency, accountability, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'being fair',
       'fairness',
@@ -5985,6 +6442,7 @@ export const questionBank: Question[] = [
     id: 457,
     category: 'Parallelism',
     question: 'The system enables tracking progress, measuring outcomes, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to generate reports',
       'generating reports',
@@ -5998,6 +6456,7 @@ export const questionBank: Question[] = [
     id: 458,
     category: 'Parallelism',
     question: 'The conference featured presentations, workshops, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'networking occurred',
       'networking sessions',
@@ -6011,6 +6470,7 @@ export const questionBank: Question[] = [
     id: 459,
     category: 'Parallelism',
     question: 'The process requires patience, persistence, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'focusing',
       'focus',
@@ -6024,6 +6484,7 @@ export const questionBank: Question[] = [
     id: 460,
     category: 'Parallelism',
     question: 'The team achieved success by communicating openly, collaborating effectively, and _____.',
+    instruction: 'Complete the sentence maintaining parallel structure with the existing elements.',
     options: [
       'to adapt quickly',
       'adapting quickly',
@@ -6039,6 +6500,7 @@ export const questionBank: Question[] = [
     id: 461,
     category: 'Mechanics',
     question: 'Which sentence is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Professor lectured on European History.',
       'The professor lectured on european history.',
@@ -6052,6 +6514,7 @@ export const questionBank: Question[] = [
     id: 462,
     category: 'Mechanics',
     question: 'Identify the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'accomodate',
       'accommodate',
@@ -6065,6 +6528,7 @@ export const questionBank: Question[] = [
     id: 463,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'We visited aunt Sarah in the Spring.',
       'We visited Aunt Sarah in the spring.',
@@ -6078,6 +6542,7 @@ export const questionBank: Question[] = [
     id: 464,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'recieve',
       'receeve',
@@ -6091,6 +6556,7 @@ export const questionBank: Question[] = [
     id: 465,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Company\'s Headquarters is in New York City.',
       'The company\'s headquarters is in new york city.',
@@ -6104,6 +6570,7 @@ export const questionBank: Question[] = [
     id: 466,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'occurance',
       'occurence',
@@ -6117,6 +6584,7 @@ export const questionBank: Question[] = [
     id: 467,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She studies Biology and Chemistry at University.',
       'She studies biology and chemistry at university.',
@@ -6130,6 +6598,7 @@ export const questionBank: Question[] = [
     id: 468,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'seperate',
       'separate',
@@ -6143,6 +6612,7 @@ export const questionBank: Question[] = [
     id: 469,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The President announced the new Policy.',
       'The president announced the new policy.',
@@ -6156,6 +6626,7 @@ export const questionBank: Question[] = [
     id: 470,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'definately',
       'definitly',
@@ -6169,6 +6640,7 @@ export const questionBank: Question[] = [
     id: 471,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'I have a Doctor\'s appointment on Tuesday.',
       'I have a doctor\'s appointment on Tuesday.',
@@ -6182,6 +6654,7 @@ export const questionBank: Question[] = [
     id: 472,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'liason',
       'liazon',
@@ -6195,6 +6668,7 @@ export const questionBank: Question[] = [
     id: 473,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The committee met in the Conference Room on the Third Floor.',
       'The Committee met in the conference room on the third floor.',
@@ -6208,6 +6682,7 @@ export const questionBank: Question[] = [
     id: 474,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'necesary',
       'neccessary',
@@ -6221,6 +6696,7 @@ export const questionBank: Question[] = [
     id: 475,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'My Mother speaks French fluently.',
       'My mother speaks french fluently.',
@@ -6234,6 +6710,7 @@ export const questionBank: Question[] = [
     id: 476,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'embarrass',
       'embarass',
@@ -6247,6 +6724,7 @@ export const questionBank: Question[] = [
     id: 477,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She earned a master\'s Degree in Engineering.',
       'She earned a Master\'s degree in engineering.',
@@ -6260,6 +6738,7 @@ export const questionBank: Question[] = [
     id: 478,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'milenium',
       'milennium',
@@ -6273,6 +6752,7 @@ export const questionBank: Question[] = [
     id: 479,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Board Of Directors met last Monday.',
       'The board of directors met last monday.',
@@ -6286,6 +6766,7 @@ export const questionBank: Question[] = [
     id: 480,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'concensus',
       'consensus',
@@ -6299,6 +6780,7 @@ export const questionBank: Question[] = [
     id: 481,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Federal Government passed new legislation.',
       'The federal government passed new legislation.',
@@ -6312,6 +6794,7 @@ export const questionBank: Question[] = [
     id: 482,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'maintainance',
       'maintenance',
@@ -6325,6 +6808,7 @@ export const questionBank: Question[] = [
     id: 483,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'We traveled South to visit the coast.',
       'We traveled south to visit the Coast.',
@@ -6338,6 +6822,7 @@ export const questionBank: Question[] = [
     id: 484,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'perseverence',
       'perseverance',
@@ -6351,6 +6836,7 @@ export const questionBank: Question[] = [
     id: 485,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Department of Education released a Statement.',
       'The department of education released a statement.',
@@ -6364,6 +6850,7 @@ export const questionBank: Question[] = [
     id: 486,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'priviledge',
       'privilage',
@@ -6377,6 +6864,7 @@ export const questionBank: Question[] = [
     id: 487,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Novel was adapted into a Film.',
       'The novel was adapted into a film.',
@@ -6390,6 +6878,7 @@ export const questionBank: Question[] = [
     id: 488,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'questionaire',
       'questionnaire',
@@ -6403,6 +6892,7 @@ export const questionBank: Question[] = [
     id: 489,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The United Nations held a summit in Geneva, Switzerland.',
       'The united nations held a summit in geneva, switzerland.',
@@ -6416,6 +6906,7 @@ export const questionBank: Question[] = [
     id: 490,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'aquaintance',
       'acquaintence',
@@ -6429,6 +6920,7 @@ export const questionBank: Question[] = [
     id: 491,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Treaty was signed in the Fall of 1945.',
       'The treaty was signed in the fall of 1945.',
@@ -6442,6 +6934,7 @@ export const questionBank: Question[] = [
     id: 492,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'exagerate',
       'exaggerate',
@@ -6455,6 +6948,7 @@ export const questionBank: Question[] = [
     id: 493,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She works for microsoft Corporation.',
       'She works for Microsoft Corporation.',
@@ -6468,6 +6962,7 @@ export const questionBank: Question[] = [
     id: 494,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'calender',
       'calandar',
@@ -6481,6 +6976,7 @@ export const questionBank: Question[] = [
     id: 495,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Museum opens at 10 AM.',
       'The museum opens at 10 am.',
@@ -6494,6 +6990,7 @@ export const questionBank: Question[] = [
     id: 496,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'wierd',
       'weard',
@@ -6507,6 +7004,7 @@ export const questionBank: Question[] = [
     id: 497,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Mayor addressed the City Council.',
       'The mayor addressed the city council.',
@@ -6520,6 +7018,7 @@ export const questionBank: Question[] = [
     id: 498,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'pharoah',
       'pharaoh',
@@ -6533,6 +7032,7 @@ export const questionBank: Question[] = [
     id: 499,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Article was published in the Journal of Medicine.',
       'The article was published in the Journal Of Medicine.',
@@ -6546,6 +7046,7 @@ export const questionBank: Question[] = [
     id: 500,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'mischievous',
       'mischievious',
@@ -6559,6 +7060,7 @@ export const questionBank: Question[] = [
     id: 501,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'He celebrated his Birthday in december.',
       'He celebrated his birthday in December.',
@@ -6572,6 +7074,7 @@ export const questionBank: Question[] = [
     id: 502,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'arguement',
       'argument',
@@ -6585,6 +7088,7 @@ export const questionBank: Question[] = [
     id: 503,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Supreme court ruled on the case.',
       'The supreme Court ruled on the case.',
@@ -6598,6 +7102,7 @@ export const questionBank: Question[] = [
     id: 504,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'judgement',
       'judgemant',
@@ -6611,6 +7116,7 @@ export const questionBank: Question[] = [
     id: 505,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She read the Bible and the Quran.',
       'She read the bible and the quran.',
@@ -6624,6 +7130,7 @@ export const questionBank: Question[] = [
     id: 506,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'bennefit',
       'benifit',
@@ -6637,6 +7144,7 @@ export const questionBank: Question[] = [
     id: 507,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Hurricane caused extensive damage along the Coast.',
       'The hurricane caused extensive damage along the coast.',
@@ -6650,6 +7158,7 @@ export const questionBank: Question[] = [
     id: 508,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'apparant',
       'aparent',
@@ -6663,6 +7172,7 @@ export const questionBank: Question[] = [
     id: 509,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Company CEO announced the merger.',
       'The company CEO announced the merger.',
@@ -6676,6 +7186,7 @@ export const questionBank: Question[] = [
     id: 510,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'paralell',
       'paralel',
@@ -6689,6 +7200,7 @@ export const questionBank: Question[] = [
     id: 511,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'They drove North through the Rocky mountains.',
       'They drove north through the Rocky Mountains.',
@@ -6702,6 +7214,7 @@ export const questionBank: Question[] = [
     id: 512,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'goverment',
       'government',
@@ -6715,6 +7228,7 @@ export const questionBank: Question[] = [
     id: 513,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Statue Of Liberty is in New York.',
       'The statue of liberty is in new york.',
@@ -6728,6 +7242,7 @@ export const questionBank: Question[] = [
     id: 514,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'independant',
       'independnt',
@@ -6741,6 +7256,7 @@ export const questionBank: Question[] = [
     id: 515,
     category: 'Mechanics',
     question: 'Which sentence has correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'She won an Academy award for best actress.',
       'She won an academy award for best actress.',
@@ -6754,6 +7270,7 @@ export const questionBank: Question[] = [
     id: 516,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'existance',
       'existense',
@@ -6767,6 +7284,7 @@ export const questionBank: Question[] = [
     id: 517,
     category: 'Mechanics',
     question: 'Which is correctly capitalized?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Minister of foreign affairs visited Canada.',
       'The minister of Foreign Affairs visited canada.',
@@ -6780,6 +7298,7 @@ export const questionBank: Question[] = [
     id: 518,
     category: 'Mechanics',
     question: 'Identify the correct spelling:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'recomend',
       'reccommend',
@@ -6793,6 +7312,7 @@ export const questionBank: Question[] = [
     id: 519,
     category: 'Mechanics',
     question: 'Which sentence uses correct capitalization?',
+    instruction: 'Apply proper capitalization rules for proper nouns, titles, and sentence beginnings.',
     options: [
       'The Internet has transformed global Communication.',
       'The internet has transformed global communication.',
@@ -6806,6 +7326,7 @@ export const questionBank: Question[] = [
     id: 520,
     category: 'Mechanics',
     question: 'Select the correctly spelled word:',
+    instruction: 'Identify the correct spelling from the options provided.',
     options: [
       'tommorrow',
       'tommorow',
@@ -6821,6 +7342,7 @@ export const questionBank: Question[] = [
     id: 521,
     category: 'Stylistic Variation',
     question: 'Choose the more formal alternative: "The meeting was put off."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The meeting was delayed.',
       'The meeting was postponed.',
@@ -6834,6 +7356,7 @@ export const questionBank: Question[] = [
     id: 522,
     category: 'Stylistic Variation',
     question: 'Select the appropriate informal version: "The candidate possessed exceptional qualifications."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The candidate had great qualifications.',
       'The candidate boasted exceptional qualifications.',
@@ -6847,6 +7370,7 @@ export const questionBank: Question[] = [
     id: 523,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "They need to figure out the problem."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'They need to work out the problem.',
       'They need to solve the problem.',
@@ -6860,6 +7384,7 @@ export const questionBank: Question[] = [
     id: 524,
     category: 'Stylistic Variation',
     question: 'Choose the informal equivalent: "The proposal was rejected."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The proposal was turned down.',
       'The proposal experienced rejection.',
@@ -6873,6 +7398,7 @@ export const questionBank: Question[] = [
     id: 525,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The company got rid of unnecessary expenses."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The company cut unnecessary expenses.',
       'The company eliminated unnecessary expenses.',
@@ -6886,6 +7412,7 @@ export const questionBank: Question[] = [
     id: 526,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The research was conducted meticulously."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The research was done carefully.',
       'The research was performed meticulously.',
@@ -6899,6 +7426,7 @@ export const questionBank: Question[] = [
     id: 527,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The results back up our hypothesis."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The results support our hypothesis.',
       'The results confirm our hypothesis.',
@@ -6912,6 +7440,7 @@ export const questionBank: Question[] = [
     id: 528,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The committee commenced deliberations."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The committee started discussions.',
       'The committee began deliberations.',
@@ -6925,6 +7454,7 @@ export const questionBank: Question[] = [
     id: 529,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "We need to look into this issue."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'We need to check out this issue.',
       'We need to investigate this issue.',
@@ -6938,6 +7468,7 @@ export const questionBank: Question[] = [
     id: 530,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The organization endeavored to enhance efficiency."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The organization tried to improve efficiency.',
       'The organization attempted to enhance efficiency.',
@@ -6951,6 +7482,7 @@ export const questionBank: Question[] = [
     id: 531,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The plan fell through."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The plan didn\'t work out.',
       'The plan failed.',
@@ -6964,6 +7496,7 @@ export const questionBank: Question[] = [
     id: 532,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The evidence substantiates the claim."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The evidence supports the claim.',
       'The evidence validates the claim.',
@@ -6977,6 +7510,7 @@ export const questionBank: Question[] = [
     id: 533,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "They came up with a solution."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'They found a solution.',
       'They devised a solution.',
@@ -6990,6 +7524,7 @@ export const questionBank: Question[] = [
     id: 534,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The participants assembled in the auditorium."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The participants gathered in the auditorium.',
       'The participants convened in the auditorium.',
@@ -7003,6 +7538,7 @@ export const questionBank: Question[] = [
     id: 535,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "The report points out several problems."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The report shows several problems.',
       'The report highlights several problems.',
@@ -7016,6 +7552,7 @@ export const questionBank: Question[] = [
     id: 536,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The legislation was rescinded."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The legislation was repealed.',
       'The legislation was revoked.',
@@ -7029,6 +7566,7 @@ export const questionBank: Question[] = [
     id: 537,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The team will work together on the project."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The team will cooperate on the project.',
       'The team will collaborate on the project.',
@@ -7042,6 +7580,7 @@ export const questionBank: Question[] = [
     id: 538,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The institution promulgated new guidelines."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The institution issued new guidelines.',
       'The institution announced new guidelines.',
@@ -7055,6 +7594,7 @@ export const questionBank: Question[] = [
     id: 539,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The argument doesn\'t hold water."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The argument isn\'t valid.',
       'The argument lacks validity.',
@@ -7068,6 +7608,7 @@ export const questionBank: Question[] = [
     id: 540,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The data corroborates our findings."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The data supports our findings.',
       'The data confirms our findings.',
@@ -7081,6 +7622,7 @@ export const questionBank: Question[] = [
     id: 541,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "We need to speed up the process."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'We need to accelerate the process.',
       'We need to expedite the process.',
@@ -7094,6 +7636,7 @@ export const questionBank: Question[] = [
     id: 542,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The defendant absconded from custody."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The defendant escaped from custody.',
       'The defendant fled from custody.',
@@ -7107,6 +7650,7 @@ export const questionBank: Question[] = [
     id: 543,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The policy will get rid of discrimination."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The policy will eliminate discrimination.',
       'The policy will remove discrimination.',
@@ -7120,6 +7664,7 @@ export const questionBank: Question[] = [
     id: 544,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The findings were disseminated widely."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The findings were distributed widely.',
       'The findings were shared widely.',
@@ -7133,6 +7678,7 @@ export const questionBank: Question[] = [
     id: 545,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The study turned up interesting results."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The study found interesting results.',
       'The study revealed interesting results.',
@@ -7146,6 +7692,7 @@ export const questionBank: Question[] = [
     id: 546,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The manager terminated the employee."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The manager dismissed the employee.',
       'The manager fired the employee.',
@@ -7159,6 +7706,7 @@ export const questionBank: Question[] = [
     id: 547,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "The company will cut back on expenses."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The company will reduce expenses.',
       'The company will curtail expenses.',
@@ -7172,6 +7720,7 @@ export const questionBank: Question[] = [
     id: 548,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The authorities apprehended the suspect."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The authorities arrested the suspect.',
       'The authorities captured the suspect.',
@@ -7185,6 +7734,7 @@ export const questionBank: Question[] = [
     id: 549,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The government will crack down on corruption."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The government will fight corruption.',
       'The government will combat corruption.',
@@ -7198,6 +7748,7 @@ export const questionBank: Question[] = [
     id: 550,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The physician prescribed medication."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The doctor prescribed medication.',
       'The doctor gave medication.',
@@ -7211,6 +7762,7 @@ export const questionBank: Question[] = [
     id: 551,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The project got approval."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The project received approval.',
       'The project obtained approval.',
@@ -7224,6 +7776,7 @@ export const questionBank: Question[] = [
     id: 552,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The evidence substantiates the hypothesis."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The evidence supports the hypothesis.',
       'The evidence proves the hypothesis.',
@@ -7237,6 +7790,7 @@ export const questionBank: Question[] = [
     id: 553,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "They put together a comprehensive report."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'They made a comprehensive report.',
       'They created a comprehensive report.',
@@ -7250,6 +7804,7 @@ export const questionBank: Question[] = [
     id: 554,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The corporation remunerated employees generously."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The corporation compensated employees generously.',
       'The corporation paid employees generously.',
@@ -7263,6 +7818,7 @@ export const questionBank: Question[] = [
     id: 555,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The study looked at various factors."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The study examined various factors.',
       'The study investigated various factors.',
@@ -7276,6 +7832,7 @@ export const questionBank: Question[] = [
     id: 556,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The committee deliberated extensively."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The committee discussed extensively.',
       'The committee talked extensively.',
@@ -7289,6 +7846,7 @@ export const questionBank: Question[] = [
     id: 557,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The proposal fell flat."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The proposal failed.',
       'The proposal was unsuccessful.',
@@ -7302,6 +7860,7 @@ export const questionBank: Question[] = [
     id: 558,
     category: 'Stylistic Variation',
     question: 'Select the informal version: "The facility accommodates five hundred individuals."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The facility holds five hundred people.',
       'The facility houses five hundred people.',
@@ -7315,6 +7874,7 @@ export const questionBank: Question[] = [
     id: 559,
     category: 'Stylistic Variation',
     question: 'Which is more formal? "The findings match our predictions."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The findings agree with our predictions.',
       'The findings correspond to our predictions.',
@@ -7328,6 +7888,7 @@ export const questionBank: Question[] = [
     id: 560,
     category: 'Stylistic Variation',
     question: 'Choose the less formal equivalent: "The institution endeavors to foster excellence."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The institution tries to encourage excellence.',
       'The institution aims to promote excellence.',
@@ -7341,6 +7902,7 @@ export const questionBank: Question[] = [
     id: 561,
     category: 'Stylistic Variation',
     question: 'Select the formal version: "The rules will be beefed up."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The rules will be strengthened.',
       'The rules will be reinforced.',
@@ -7354,6 +7916,7 @@ export const questionBank: Question[] = [
     id: 562,
     category: 'Stylistic Variation',
     question: 'Which is less formal? "The candidate demonstrated proficiency."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The candidate showed proficiency.',
       'The candidate exhibited proficiency.',
@@ -7367,6 +7930,7 @@ export const questionBank: Question[] = [
     id: 563,
     category: 'Stylistic Variation',
     question: 'Choose the formal alternative: "The plan will pay off in the long run."',
+    instruction: 'Choose language appropriate to the context, audience, and level of formality.',
     options: [
       'The plan will succeed eventually.',
       'The plan will prove beneficial ultimately.',
@@ -7382,6 +7946,7 @@ export const questionBank: Question[] = [
     id: 564,
     category: 'Vocabulary',
     question: 'The lawyer\'s _____ arguments convinced the jury.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'cogent',
       'verbose',
@@ -7395,6 +7960,7 @@ export const questionBank: Question[] = [
     id: 565,
     category: 'Vocabulary',
     question: 'The committee chose a _____ approach to avoid controversy.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'radical',
       'circumspect',
@@ -7408,6 +7974,7 @@ export const questionBank: Question[] = [
     id: 566,
     category: 'Vocabulary',
     question: 'His _____ nature made him unsuitable for leadership.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'assertive',
       'decisive',
@@ -7421,6 +7988,7 @@ export const questionBank: Question[] = [
     id: 567,
     category: 'Vocabulary',
     question: 'The scientist\'s theory was _____ by extensive research.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'refuted',
       'corroborated',
@@ -7434,6 +8002,7 @@ export const questionBank: Question[] = [
     id: 568,
     category: 'Vocabulary',
     question: 'The _____ student absorbed knowledge effortlessly.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'obtuse',
       'perspicacious',
@@ -7447,6 +8016,7 @@ export const questionBank: Question[] = [
     id: 569,
     category: 'Vocabulary',
     question: 'Her _____ smile suggested hidden motives.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'genuine',
       'inscrutable',
@@ -7460,6 +8030,7 @@ export const questionBank: Question[] = [
     id: 570,
     category: 'Vocabulary',
     question: 'The _____ politician changed positions frequently.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'steadfast',
       'principled',
@@ -7473,6 +8044,7 @@ export const questionBank: Question[] = [
     id: 571,
     category: 'Vocabulary',
     question: 'The report contained _____ errors that undermined its credibility.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'trivial',
       'egregious',
@@ -7486,6 +8058,7 @@ export const questionBank: Question[] = [
     id: 572,
     category: 'Vocabulary',
     question: 'The speaker\'s _____ manner alienated the audience.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'affable',
       'supercilious',
@@ -7499,6 +8072,7 @@ export const questionBank: Question[] = [
     id: 573,
     category: 'Vocabulary',
     question: 'The athlete showed _____ in the face of defeat.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'cowardice',
       'pusillanimity',
@@ -7512,6 +8086,7 @@ export const questionBank: Question[] = [
     id: 574,
     category: 'Vocabulary',
     question: 'The writer\'s _____ prose captivated readers.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'turgid',
       'pedestrian',
@@ -7525,6 +8100,7 @@ export const questionBank: Question[] = [
     id: 575,
     category: 'Vocabulary',
     question: 'His _____ lifestyle contrasted with his humble origins.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'austere',
       'spartan',
@@ -7538,6 +8114,7 @@ export const questionBank: Question[] = [
     id: 576,
     category: 'Vocabulary',
     question: 'The _____ excuse was immediately dismissed.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'plausible',
       'credible',
@@ -7551,6 +8128,7 @@ export const questionBank: Question[] = [
     id: 577,
     category: 'Vocabulary',
     question: 'The diplomat\'s _____ response avoided giving offense.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'tactless',
       'judicious',
@@ -7564,6 +8142,7 @@ export const questionBank: Question[] = [
     id: 578,
     category: 'Vocabulary',
     question: 'The criminal showed no _____ for his actions.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'remorse',
       'pride',
@@ -7577,6 +8156,7 @@ export const questionBank: Question[] = [
     id: 579,
     category: 'Vocabulary',
     question: 'The professor\'s _____ knowledge impressed colleagues.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'superficial',
       'erudite',
@@ -7590,6 +8170,7 @@ export const questionBank: Question[] = [
     id: 580,
     category: 'Vocabulary',
     question: 'The _____ nature of the problem required immediate attention.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'trivial',
       'exigent',
@@ -7603,6 +8184,7 @@ export const questionBank: Question[] = [
     id: 581,
     category: 'Vocabulary',
     question: 'Her _____ demeanor made her approachable.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'aloof',
       'amiable',
@@ -7616,6 +8198,7 @@ export const questionBank: Question[] = [
     id: 582,
     category: 'Vocabulary',
     question: 'The witness provided a _____ account of events.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'distorted',
       'veracious',
@@ -7629,6 +8212,7 @@ export const questionBank: Question[] = [
     id: 583,
     category: 'Vocabulary',
     question: 'The _____ student challenged every assumption.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'docile',
       'iconoclastic',
@@ -7642,6 +8226,7 @@ export const questionBank: Question[] = [
     id: 584,
     category: 'Vocabulary',
     question: 'The artist\'s work showed _____ creativity.',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
     options: [
       'derivative',
       'imitative',
@@ -7655,6 +8240,7 @@ export const questionBank: Question[] = [
     id: 585,
     category: 'Vocabulary',
     question: 'The _____ executive motivated the entire team.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'lethargic',
       'dynamic',
@@ -7668,6 +8254,7 @@ export const questionBank: Question[] = [
     id: 586,
     category: 'Vocabulary',
     question: 'The _____ tone of the article offended many readers.',
+    instruction: 'Choose the word that best fits the context and meaning of the sentence.',
     options: [
       'respectful',
       'pejorative',
@@ -7683,6 +8270,7 @@ export const questionBank: Question[] = [
     id: 587,
     category: 'Cohesion & Coherence',
     question: 'Select the best transition: "The project was completed on time. _____, it exceeded quality expectations."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'However',
       'Therefore',
@@ -7696,6 +8284,7 @@ export const questionBank: Question[] = [
     id: 588,
     category: 'Cohesion & Coherence',
     question: 'Which word best connects these ideas? "The evidence is compelling. _____, we must proceed cautiously."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Furthermore',
       'Nevertheless',
@@ -7709,6 +8298,7 @@ export const questionBank: Question[] = [
     id: 589,
     category: 'Cohesion & Coherence',
     question: 'Choose the appropriate connector: "The theory was innovative. _____, it lacked empirical support."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Additionally',
       'Likewise',
@@ -7722,6 +8312,7 @@ export const questionBank: Question[] = [
     id: 590,
     category: 'Cohesion & Coherence',
     question: 'Select the best transition: "The data was unreliable. _____, the conclusions were questionable."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Meanwhile',
       'Consequently',
@@ -7735,6 +8326,7 @@ export const questionBank: Question[] = [
     id: 591,
     category: 'Cohesion & Coherence',
     question: 'Which connector fits best? "First-year students struggled. _____, seniors excelled."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'In contrast',
@@ -7748,6 +8340,7 @@ export const questionBank: Question[] = [
     id: 592,
     category: 'Cohesion & Coherence',
     question: 'Choose the appropriate transition: "The study identified problems. _____, it proposed solutions."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nonetheless',
       'In addition',
@@ -7761,6 +8354,7 @@ export const questionBank: Question[] = [
     id: 593,
     category: 'Cohesion & Coherence',
     question: 'Select the best connector: "The method was expensive. _____, it proved highly effective."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'Similarly',
@@ -7774,6 +8368,7 @@ export const questionBank: Question[] = [
     id: 594,
     category: 'Cohesion & Coherence',
     question: 'Which transition works best? "The deadline was extended. _____, the team maintained the original schedule."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Thus',
       'Moreover',
@@ -7787,6 +8382,7 @@ export const questionBank: Question[] = [
     id: 595,
     category: 'Cohesion & Coherence',
     question: 'Choose the appropriate word: "The first experiment failed. _____, the second succeeded."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'Conversely',
@@ -7800,6 +8396,7 @@ export const questionBank: Question[] = [
     id: 596,
     category: 'Cohesion & Coherence',
     question: 'Select the best transition: "The analysis revealed patterns. _____, predictions became more accurate."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Nevertheless',
       'Conversely',
@@ -7813,6 +8410,7 @@ export const questionBank: Question[] = [
     id: 597,
     category: 'Cohesion & Coherence',
     question: 'Which connector fits best? "The findings support the hypothesis. _____, they contradict previous studies."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Furthermore',
       'However',
@@ -7826,6 +8424,7 @@ export const questionBank: Question[] = [
     id: 598,
     category: 'Cohesion & Coherence',
     question: 'Choose the appropriate transition: "The procedure was complex. _____, results were consistent."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Therefore',
       'Nonetheless',
@@ -7839,6 +8438,7 @@ export const questionBank: Question[] = [
     id: 599,
     category: 'Cohesion & Coherence',
     question: 'Select the best connector: "The policy reduced costs. _____, it improved efficiency."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'However',
       'In contrast',
@@ -7852,6 +8452,7 @@ export const questionBank: Question[] = [
     id: 600,
     category: 'Cohesion & Coherence',
     question: 'Which transition works best? "The initial approach failed. _____, a new strategy was developed."',
+    instruction: 'Select the option that best maintains cohesion and coherence in the passage.',
     options: [
       'Similarly',
       'Likewise',

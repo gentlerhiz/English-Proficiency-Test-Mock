@@ -243,7 +243,15 @@ export default function QuizPage() {
                             </span>
                             <span className="text-xs sm:text-sm text-gray-500">Question {index + 1}</span>
                           </div>
-                          <p className="font-semibold mb-3 text-sm sm:text-base">{question.question}</p>
+                          <p className="font-semibold mb-2 text-sm sm:text-base">{question.question}</p>
+                          {question.instruction && (
+                            <div className="mb-3 p-2 sm:p-3 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                              <p className="text-xs sm:text-sm text-indigo-700 flex items-start gap-2">
+                                <span className="flex-shrink-0">💡</span>
+                                <span>{question.instruction}</span>
+                              </p>
+                            </div>
+                          )}
                           <div className="space-y-2">
                             {question.options.map((option, optIndex) => {
                               const isUserAnswer = userAnswer === optIndex
@@ -346,6 +354,14 @@ export default function QuizPage() {
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 leading-relaxed">
               {currentQ.question}
             </h2>
+            {currentQ.instruction && (
+              <div className="mt-3 sm:mt-4 p-3 sm:p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                <p className="text-sm sm:text-base text-indigo-700 flex items-start gap-2">
+                  <span className="text-lg flex-shrink-0">💡</span>
+                  <span>{currentQ.instruction}</span>
+                </p>
+              </div>
+            )}
           </div>
 
           <div className="space-y-2 sm:space-y-3">
@@ -353,21 +369,21 @@ export default function QuizPage() {
               <button
                 key={index}
                 onClick={() => handleAnswerSelect(index)}
-                className={`w-full text-left p-3 sm:p-4 rounded-lg border-2 transition ${
+                className={`w-full text-left p-3 sm:p-4 rounded-lg border-3 transition-all shadow-sm hover:shadow-md ${
                   selectedAnswers[currentQuestion] === index
-                    ? 'border-purple-600 bg-purple-50'
-                    : 'border-gray-300 hover:border-purple-300 bg-white'
+                    ? 'border-indigo-600 bg-indigo-50 ring-2 ring-indigo-300'
+                    : 'border-gray-300 hover:border-indigo-400 bg-white'
                 }`}
               >
                 <div className="flex items-start sm:items-center gap-2 sm:gap-3">
                   <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5 sm:mt-0 ${
                     selectedAnswers[currentQuestion] === index
-                      ? 'border-purple-600 bg-purple-600 text-white'
-                      : 'border-gray-400 text-gray-600'
+                      ? 'border-indigo-600 bg-indigo-600 text-white'
+                      : 'border-gray-500 text-gray-700 bg-gray-50'
                   }`}>
                     {String.fromCharCode(65 + index)}
                   </div>
-                  <span className="flex-1 text-sm sm:text-base leading-relaxed">{option}</span>
+                  <span className="flex-1 text-sm sm:text-base leading-relaxed font-medium text-gray-800">{option}</span>
                 </div>
               </button>
             ))}
@@ -383,14 +399,14 @@ export default function QuizPage() {
                 <button
                   key={index}
                   onClick={() => setCurrentQuestion(index)}
-                  className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex-shrink-0 font-semibold text-xs transition ${
+                  className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex-shrink-0 font-bold text-xs transition-all shadow-sm hover:shadow-md ${
                     selectedAnswers[index] !== null
-                      ? 'bg-green-500 text-white'
+                      ? 'bg-emerald-600 text-white hover:bg-emerald-700'
                       : index === currentQuestion
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-300 text-gray-700'
+                      ? 'bg-indigo-600 text-white ring-2 ring-indigo-300'
+                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                   }`}
-                  title={`Question ${index + 1}`}
+                  title={`Question ${index + 1}${selectedAnswers[index] !== null ? ' (Answered)' : ''}`}
                 >
                   {index + 1}
                 </button>
@@ -403,7 +419,7 @@ export default function QuizPage() {
             <button
               onClick={handlePrevious}
               disabled={currentQuestion === 0}
-              className="flex-1 px-4 sm:px-6 py-3 rounded-lg font-semibold text-sm sm:text-base border-2 border-rose-400 text-gray-700 hover:bg-rose-50 disabled:opacity-50 disabled:cursor-not-allowed transition whitespace-nowrap"
+              className="flex-1 px-4 sm:px-6 py-3 rounded-lg font-bold text-sm sm:text-base bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-md hover:shadow-lg whitespace-nowrap"
             >
               <span className="hidden sm:inline">← Previous</span>
               <span className="sm:hidden">← Prev</span>
@@ -412,14 +428,14 @@ export default function QuizPage() {
             {currentQuestion === quizQuestions.length - 1 ? (
               <button
                 onClick={handleSubmit}
-                className="flex-1 px-4 sm:px-8 py-3 rounded-lg font-semibold text-sm sm:text-base bg-emerald-500 text-white hover:bg-emerald-600 transition shadow-sm whitespace-nowrap"
+                className="flex-1 px-4 sm:px-8 py-3 rounded-lg font-bold text-sm sm:text-base bg-green-600 text-white hover:bg-green-700 transition-all shadow-md hover:shadow-lg whitespace-nowrap"
               >
                 Submit Quiz
               </button>
             ) : (
               <button
                 onClick={handleNext}
-                className="flex-1 px-4 sm:px-6 py-3 rounded-lg font-semibold text-sm sm:text-base bg-sky-500 text-white hover:bg-sky-600 transition shadow-sm whitespace-nowrap"
+                className="flex-1 px-4 sm:px-6 py-3 rounded-lg font-bold text-sm sm:text-base bg-blue-600 text-white hover:bg-blue-700 transition-all shadow-md hover:shadow-lg whitespace-nowrap"
               >
                 <span className="hidden sm:inline">Next →</span>
                 <span className="sm:hidden">Next →</span>
