@@ -99,54 +99,113 @@ export default function QuizPage() {
 
   if (!quizStarted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center p-4">
-        <div className="max-w-2xl w-full bg-white rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8">
-          <div className="text-center">
-            <div className="flex justify-center mb-4 sm:mb-6">
-              <div className="bg-purple-100 p-4 sm:p-6 rounded-full">
-                <Award className="w-12 h-12 sm:w-16 sm:h-16 text-purple-600" />
+      <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
+        {/* Hero Section */}
+        <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white py-16 px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <div className="bg-white/20 backdrop-blur-sm p-6 rounded-full">
+                <Award className="w-16 h-16 sm:w-20 sm:h-20" />
               </div>
             </div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-gray-800">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
               English Proficiency Test
             </h1>
-            <p className="text-gray-600 mb-6 sm:mb-8 text-base sm:text-lg">
-              Test your knowledge across all syllabus areas
+            <p className="text-xl sm:text-2xl text-indigo-100 mb-6">
+              Test your knowledge across all 6 syllabus areas
             </p>
-            
-            <div className="bg-gray-50 rounded-lg p-4 sm:p-6 mb-6 sm:mb-8 text-left">
-              <h2 className="font-bold text-lg sm:text-xl mb-3 sm:mb-4">Instructions:</h2>
-              <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-700">
-                <li className="flex items-start gap-2">
-                  <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-purple-600 mt-1 flex-shrink-0" />
-                  <span>You have <strong>60 minutes</strong> to complete <strong>50 questions</strong></span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 mt-1 flex-shrink-0" />
-                  <span><strong>50 random questions</strong> will be selected from our question bank</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Award className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mt-1 flex-shrink-0" />
-                  <span>Questions cover: <strong>Parallelism, Cohesion & Coherence, Stylistic Variation, Concord, Mechanics, and Vocabulary</strong></span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-red-600 mt-1 flex-shrink-0" />
-                  <span>You can navigate between questions and change your answers</span>
-                </li>
-              </ul>
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-sm sm:text-base">
+              <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">50 Questions</span>
+              <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">60 Minutes</span>
+              <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">Instant Results</span>
             </div>
+          </div>
+        </div>
 
+        {/* Main Content */}
+        <div className="max-w-4xl mx-auto px-4 py-12">
+          {/* Instructions Card */}
+          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 mb-8">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="bg-indigo-100 p-3 rounded-lg">
+                <CheckCircle className="w-6 h-6 text-indigo-600" />
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Test Instructions</h2>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-4 p-4 bg-indigo-50 rounded-xl">
+                <div className="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-1">Time Limit</h3>
+                  <p className="text-gray-700">You have <strong>60 minutes</strong> to complete <strong>50 questions</strong>. The timer starts when you begin.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-xl">
+                <div className="bg-purple-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-1">Question Selection</h3>
+                  <p className="text-gray-700"><strong>50 random questions</strong> will be selected from our comprehensive question bank covering all topics.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-pink-50 rounded-xl">
+                <div className="bg-pink-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-1">Topics Covered</h3>
+                  <p className="text-gray-700 mb-2">Questions include:</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">Parallelism</span>
+                    <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">Cohesion & Coherence</span>
+                    <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Stylistic Variation</span>
+                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">Concord</span>
+                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Mechanics</span>
+                    <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Vocabulary</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 bg-green-50 rounded-xl">
+                <div className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-1">Navigation</h3>
+                  <p className="text-gray-700">You can <strong>navigate between questions</strong> and change your answers at any time before submitting.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={startQuiz}
-              className="bg-blue-600 text-white px-8 sm:px-12 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-700 transition shadow-md w-full sm:w-auto whitespace-nowrap"
+              className="px-8 sm:px-12 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-lg rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
             >
-              Start Quiz
+              <Award className="w-5 h-5" />
+              Start Quiz Now
             </button>
-            <div className="mt-4">
-              <Link href="/" className="text-purple-600 hover:underline text-sm sm:text-base">
-                ← Back to Home
-              </Link>
-            </div>
+            <Link href="/">
+              <button className="w-full px-8 sm:px-12 py-4 bg-white border-2 border-gray-300 text-gray-700 font-semibold text-lg rounded-xl hover:border-indigo-500 hover:text-indigo-600 transition-all flex items-center justify-center gap-2">
+                <Home className="w-5 h-5" />
+                Back to Home
+              </button>
+            </Link>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="mt-12 text-center bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-6 sm:p-8 border-2 border-indigo-100">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+              Need More Practice?
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Review concepts and practice with our comprehensive learning modules
+            </p>
+            <Link href="/learn">
+              <button className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-all">
+                Go to Learning Modules
+              </button>
+            </Link>
           </div>
         </div>
       </div>
