@@ -17,7 +17,7 @@ export default function Home() {
             Master English<br />Proficiency
           </h1>
           <p className="text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
-            Practice with <span className="text-white font-semibold">600 AI-generated questions</span>, 
+            Practice with <span className="text-white font-semibold">1000+ AI-generated questions</span>, 
             get instant feedback, and ace your graduate admission exams.
           </p>
 
@@ -214,7 +214,7 @@ export default function Home() {
               <div className="bg-gradient-to-br from-indigo-500 to-indigo-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
               </div>
-              <h3 className="font-bold mb-2 text-lg text-gray-900">60 Minutes</h3>
+              <h3 className="font-bold mb-2 text-lg text-gray-900">30 Minutes</h3>
               <p className="text-gray-600 text-sm leading-relaxed">Complete 50 questions within the time limit</p>
             </div>
 
@@ -222,7 +222,7 @@ export default function Home() {
               <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
-              <h3 className="font-bold mb-2 text-lg text-gray-900">600 Questions</h3>
+              <h3 className="font-bold mb-2 text-lg text-gray-900">1000+ Questions</h3>
               <p className="text-gray-600 text-sm leading-relaxed">50 randomly selected from our question bank</p>
             </div>
 
@@ -361,7 +361,7 @@ export default function Home() {
               <span className="inline-flex items-center gap-1.5">
                 <Brain className="w-3.5 h-3.5 text-indigo-100 inline" />
                 <span className="font-medium">Practice Tool:</span>
-              </span> This platform contains 600 AI-generated questions for educational practice only. 
+              </span> This platform contains 1000+ AI-generated questions for educational practice only. 
               Questions are randomly selected (50 per quiz) with automatic marking. Not affiliated with official testing bodies.
             </p>
           </div>

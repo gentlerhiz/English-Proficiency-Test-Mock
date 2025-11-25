@@ -8461,6 +8461,1832 @@ export const questionBank: Question[] = [
     ],
     correctAnswer: 2,
     explanation: '"Subsequently" indicates that the new strategy was developed after the failure, showing chronological sequence.'
+  },
+
+  // VOCABULARY - Additional Synonyms & Antonyms (Questions 601-650)
+  {
+    id: 601,
+    category: 'Vocabulary',
+    question: 'What is the synonym of "ubiquitous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Rare',
+      'Omnipresent',
+      'Scarce',
+      'Limited'
+    ],
+    correctAnswer: 1,
+    explanation: '"Ubiquitous" means present everywhere at once, so "omnipresent" is the correct synonym.'
+  },
+  {
+    id: 602,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "ephemeral"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Temporary',
+      'Brief',
+      'Permanent',
+      'Fleeting'
+    ],
+    correctAnswer: 2,
+    explanation: '"Ephemeral" means lasting for a very short time, so "permanent" is the opposite.'
+  },
+  {
+    id: 603,
+    category: 'Vocabulary',
+    question: 'Which word is similar to "meticulous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Careless',
+      'Negligent',
+      'Scrupulous',
+      'Hasty'
+    ],
+    correctAnswer: 2,
+    explanation: '"Meticulous" means showing great attention to detail, which is synonymous with "scrupulous".'
+  },
+  {
+    id: 604,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "mundane"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Ordinary',
+      'Extraordinary',
+      'Common',
+      'Routine'
+    ],
+    correctAnswer: 1,
+    explanation: '"Mundane" means ordinary or lacking interest, so "extraordinary" is its antonym.'
+  },
+  {
+    id: 605,
+    category: 'Vocabulary',
+    question: '"Benevolent" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Malevolent',
+      'Hostile',
+      'Charitable',
+      'Cruel'
+    ],
+    correctAnswer: 2,
+    explanation: '"Benevolent" means well-meaning and kindly, making "charitable" the best synonym.'
+  },
+  {
+    id: 606,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "verbose"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Wordy',
+      'Lengthy',
+      'Concise',
+      'Elaborate'
+    ],
+    correctAnswer: 2,
+    explanation: '"Verbose" means using more words than necessary, while "concise" means brief and to the point.'
+  },
+  {
+    id: 607,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "pragmatic"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Idealistic',
+      'Practical',
+      'Theoretical',
+      'Abstract'
+    ],
+    correctAnswer: 1,
+    explanation: '"Pragmatic" means dealing with things realistically and practically, making "practical" the correct synonym.'
+  },
+  {
+    id: 608,
+    category: 'Vocabulary',
+    question: 'What is opposite to "frugal"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Economical',
+      'Thrifty',
+      'Extravagant',
+      'Careful'
+    ],
+    correctAnswer: 2,
+    explanation: '"Frugal" means economical with money or resources, while "extravagant" means spending excessively.'
+  },
+  {
+    id: 609,
+    category: 'Vocabulary',
+    question: '"Candid" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Deceptive',
+      'Frank',
+      'Evasive',
+      'Dishonest'
+    ],
+    correctAnswer: 1,
+    explanation: '"Candid" means truthful and straightforward, which is synonymous with "frank".'
+  },
+  {
+    id: 610,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "ambiguous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Vague',
+      'Unclear',
+      'Explicit',
+      'Confusing'
+    ],
+    correctAnswer: 2,
+    explanation: '"Ambiguous" means open to more than one interpretation, while "explicit" means stated clearly.'
+  },
+  {
+    id: 611,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "diligent"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Lazy',
+      'Industrious',
+      'Careless',
+      'Negligent'
+    ],
+    correctAnswer: 1,
+    explanation: '"Diligent" means showing care and effort in work, making "industrious" the correct synonym.'
+  },
+  {
+    id: 612,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "opaque"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Cloudy',
+      'Murky',
+      'Transparent',
+      'Obscure'
+    ],
+    correctAnswer: 2,
+    explanation: '"Opaque" means not able to be seen through, while "transparent" means allowing light to pass through.'
+  },
+  {
+    id: 613,
+    category: 'Vocabulary',
+    question: '"Tenacious" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Weak',
+      'Persistent',
+      'Yielding',
+      'Feeble'
+    ],
+    correctAnswer: 1,
+    explanation: '"Tenacious" means holding firmly to something, which is synonymous with "persistent".'
+  },
+  {
+    id: 614,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "austere"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Lavish',
+      'Severe',
+      'Strict',
+      'Simple'
+    ],
+    correctAnswer: 0,
+    explanation: '"Austere" means severe or strict in appearance or manner, while "lavish" means elaborate and luxurious.'
+  },
+  {
+    id: 615,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "arduous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Easy',
+      'Simple',
+      'Strenuous',
+      'Effortless'
+    ],
+    correctAnswer: 2,
+    explanation: '"Arduous" means involving or requiring strenuous effort, making "strenuous" the correct synonym.'
+  },
+  {
+    id: 616,
+    category: 'Vocabulary',
+    question: 'What is opposite to "concede"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Admit',
+      'Yield',
+      'Resist',
+      'Surrender'
+    ],
+    correctAnswer: 2,
+    explanation: '"Concede" means to admit or yield, while "resist" means to refuse to accept or give in.'
+  },
+  {
+    id: 617,
+    category: 'Vocabulary',
+    question: '"Eloquent" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Inarticulate',
+      'Articulate',
+      'Stumbling',
+      'Clumsy'
+    ],
+    correctAnswer: 1,
+    explanation: '"Eloquent" means fluent and persuasive in speaking, which is synonymous with "articulate".'
+  },
+  {
+    id: 618,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "loquacious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Talkative',
+      'Chatty',
+      'Taciturn',
+      'Verbose'
+    ],
+    correctAnswer: 2,
+    explanation: '"Loquacious" means tending to talk a great deal, while "taciturn" means reserved or uncommunicative.'
+  },
+  {
+    id: 619,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "diminutive"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Large',
+      'Tiny',
+      'Massive',
+      'Huge'
+    ],
+    correctAnswer: 1,
+    explanation: '"Diminutive" means extremely or unusually small, making "tiny" the correct synonym.'
+  },
+  {
+    id: 620,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "indigenous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Native',
+      'Local',
+      'Foreign',
+      'Original'
+    ],
+    correctAnswer: 2,
+    explanation: '"Indigenous" means originating or occurring naturally in a place, while "foreign" means from another country.'
+  },
+  {
+    id: 621,
+    category: 'Vocabulary',
+    question: '"Copious" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Scarce',
+      'Abundant',
+      'Limited',
+      'Meager'
+    ],
+    correctAnswer: 1,
+    explanation: '"Copious" means abundant in supply or quantity, making "abundant" the correct synonym.'
+  },
+  {
+    id: 622,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "ameliorate"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Improve',
+      'Enhance',
+      'Worsen',
+      'Better'
+    ],
+    correctAnswer: 2,
+    explanation: '"Ameliorate" means to make something better or improve, while "worsen" means to make or become worse.'
+  },
+  {
+    id: 623,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "fortuitous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Planned',
+      'Deliberate',
+      'Accidental',
+      'Intentional'
+    ],
+    correctAnswer: 2,
+    explanation: '"Fortuitous" means happening by chance rather than intention, making "accidental" the correct synonym.'
+  },
+  {
+    id: 624,
+    category: 'Vocabulary',
+    question: 'What is opposite to "gregarious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Sociable',
+      'Outgoing',
+      'Solitary',
+      'Friendly'
+    ],
+    correctAnswer: 2,
+    explanation: '"Gregarious" means fond of company and sociable, while "solitary" means done or existing alone.'
+  },
+  {
+    id: 625,
+    category: 'Vocabulary',
+    question: '"Lucid" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Confused',
+      'Clear',
+      'Obscure',
+      'Vague'
+    ],
+    correctAnswer: 1,
+    explanation: '"Lucid" means expressed clearly and easy to understand, which is synonymous with "clear".'
+  },
+  {
+    id: 626,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "parsimonious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Stingy',
+      'Miserly',
+      'Generous',
+      'Thrifty'
+    ],
+    correctAnswer: 2,
+    explanation: '"Parsimonious" means unwilling to spend money or use resources, while "generous" means freely giving.'
+  },
+  {
+    id: 627,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "zealous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Apathetic',
+      'Indifferent',
+      'Enthusiastic',
+      'Uninterested'
+    ],
+    correctAnswer: 2,
+    explanation: '"Zealous" means having or showing great energy or enthusiasm, making "enthusiastic" the correct synonym.'
+  },
+  {
+    id: 628,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "prolific"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Productive',
+      'Fertile',
+      'Unproductive',
+      'Fruitful'
+    ],
+    correctAnswer: 2,
+    explanation: '"Prolific" means producing much fruit, foliage, or many works, while "unproductive" means not producing.'
+  },
+  {
+    id: 629,
+    category: 'Vocabulary',
+    question: '"Altruistic" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Selfish',
+      'Selfless',
+      'Greedy',
+      'Egotistical'
+    ],
+    correctAnswer: 1,
+    explanation: '"Altruistic" means showing a disinterested concern for others, which is synonymous with "selfless".'
+  },
+  {
+    id: 630,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "transient"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Temporary',
+      'Brief',
+      'Enduring',
+      'Momentary'
+    ],
+    correctAnswer: 2,
+    explanation: '"Transient" means lasting only for a short time, while "enduring" means lasting over a period of time.'
+  },
+  {
+    id: 631,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "incisive"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Dull',
+      'Blunt',
+      'Penetrating',
+      'Superficial'
+    ],
+    correctAnswer: 2,
+    explanation: '"Incisive" means intelligently analytical and clear-thinking, making "penetrating" the correct synonym.'
+  },
+  {
+    id: 632,
+    category: 'Vocabulary',
+    question: 'What is opposite to "mundane"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Ordinary',
+      'Celestial',
+      'Common',
+      'Routine'
+    ],
+    correctAnswer: 1,
+    explanation: '"Mundane" means lacking interest or earthly, while "celestial" means heavenly or extraordinary.'
+  },
+  {
+    id: 633,
+    category: 'Vocabulary',
+    question: '"Reticent" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Outspoken',
+      'Reserved',
+      'Vocal',
+      'Expressive'
+    ],
+    correctAnswer: 1,
+    explanation: '"Reticent" means not revealing one\'s thoughts readily, which is synonymous with "reserved".'
+  },
+  {
+    id: 634,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "spurious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'False',
+      'Fake',
+      'Genuine',
+      'Counterfeit'
+    ],
+    correctAnswer: 2,
+    explanation: '"Spurious" means not being what it purports to be or false, while "genuine" means truly what it is said to be.'
+  },
+  {
+    id: 635,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "pernicious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Beneficial',
+      'Harmful',
+      'Helpful',
+      'Advantageous'
+    ],
+    correctAnswer: 1,
+    explanation: '"Pernicious" means having a harmful effect, especially in a gradual way, making "harmful" the correct synonym.'
+  },
+  {
+    id: 636,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "acquiesce"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Agree',
+      'Consent',
+      'Oppose',
+      'Comply'
+    ],
+    correctAnswer: 2,
+    explanation: '"Acquiesce" means to accept something reluctantly, while "oppose" means to disagree or resist.'
+  },
+  {
+    id: 637,
+    category: 'Vocabulary',
+    question: '"Astute" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Foolish',
+      'Shrewd',
+      'Naive',
+      'Stupid'
+    ],
+    correctAnswer: 1,
+    explanation: '"Astute" means having the ability to accurately assess situations, which is synonymous with "shrewd".'
+  },
+  {
+    id: 638,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "magnanimous"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Generous',
+      'Noble',
+      'Petty',
+      'Forgiving'
+    ],
+    correctAnswer: 2,
+    explanation: '"Magnanimous" means generous or forgiving, especially toward a rival, while "petty" means small-minded.'
+  },
+  {
+    id: 639,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "obdurate"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Flexible',
+      'Yielding',
+      'Stubborn',
+      'Compliant'
+    ],
+    correctAnswer: 2,
+    explanation: '"Obdurate" means stubbornly refusing to change one\'s opinion, making "stubborn" the correct synonym.'
+  },
+  {
+    id: 640,
+    category: 'Vocabulary',
+    question: 'What is opposite to "terse"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Brief',
+      'Concise',
+      'Verbose',
+      'Succinct'
+    ],
+    correctAnswer: 2,
+    explanation: '"Terse" means sparing in the use of words or abrupt, while "verbose" means using more words than necessary.'
+  },
+  {
+    id: 641,
+    category: 'Vocabulary',
+    question: '"Voracious" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Moderate',
+      'Insatiable',
+      'Satisfied',
+      'Content'
+    ],
+    correctAnswer: 1,
+    explanation: '"Voracious" means wanting or devouring great quantities, which is synonymous with "insatiable".'
+  },
+  {
+    id: 642,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "ascetic"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Austere',
+      'Severe',
+      'Hedonistic',
+      'Simple'
+    ],
+    correctAnswer: 2,
+    explanation: '"Ascetic" means characterized by severe self-discipline, while "hedonistic" means devoted to pleasure.'
+  },
+  {
+    id: 643,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "ephemeral"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Permanent',
+      'Lasting',
+      'Transitory',
+      'Enduring'
+    ],
+    correctAnswer: 2,
+    explanation: '"Ephemeral" means lasting for a very short time, making "transitory" the correct synonym.'
+  },
+  {
+    id: 644,
+    category: 'Vocabulary',
+    question: 'What is opposite in meaning to "alacrity"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Eagerness',
+      'Enthusiasm',
+      'Reluctance',
+      'Willingness'
+    ],
+    correctAnswer: 2,
+    explanation: '"Alacrity" means brisk and cheerful readiness, while "reluctance" means unwillingness or hesitation.'
+  },
+  {
+    id: 645,
+    category: 'Vocabulary',
+    question: '"Languid" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Energetic',
+      'Lethargic',
+      'Vigorous',
+      'Active'
+    ],
+    correctAnswer: 1,
+    explanation: '"Languid" means displaying or having a lack of energy, which is synonymous with "lethargic".'
+  },
+  {
+    id: 646,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "perfunctory"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Hasty',
+      'Careless',
+      'Thorough',
+      'Superficial'
+    ],
+    correctAnswer: 2,
+    explanation: '"Perfunctory" means carried out with minimum effort, while "thorough" means complete with attention to detail.'
+  },
+  {
+    id: 647,
+    category: 'Vocabulary',
+    question: 'Which word is synonymous with "sagacious"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Foolish',
+      'Wise',
+      'Ignorant',
+      'Unwise'
+    ],
+    correctAnswer: 1,
+    explanation: '"Sagacious" means having or showing keen mental discernment and good judgment, making "wise" the synonym.'
+  },
+  {
+    id: 648,
+    category: 'Vocabulary',
+    question: 'What is opposite to "intrepid"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Brave',
+      'Courageous',
+      'Timid',
+      'Fearless'
+    ],
+    correctAnswer: 2,
+    explanation: '"Intrepid" means fearless and adventurous, while "timid" means showing a lack of courage or confidence.'
+  },
+  {
+    id: 649,
+    category: 'Vocabulary',
+    question: '"Tacit" is similar to:',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Explicit',
+      'Expressed',
+      'Implied',
+      'Stated'
+    ],
+    correctAnswer: 2,
+    explanation: '"Tacit" means understood or implied without being stated, which is synonymous with "implied".'
+  },
+  {
+    id: 650,
+    category: 'Vocabulary',
+    question: 'What is the antonym of "banal"?',
+    instruction: 'Select the most contextually appropriate word based on meaning and register.',
+    options: [
+      'Trite',
+      'Commonplace',
+      'Original',
+      'Hackneyed'
+    ],
+    correctAnswer: 2,
+    explanation: '"Banal" means so lacking in originality as to be obvious and boring, while "original" means new and innovative.'
+  },
+
+  // VOCABULARY - Ambiguity Resolution (Questions 651-700)
+  {
+    id: 651,
+    category: 'Vocabulary',
+    question: 'The word "bank" in "He walked along the river bank" refers to:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'A financial institution',
+      'The edge of a river',
+      'To rely on something',
+      'A storage place'
+    ],
+    correctAnswer: 1,
+    explanation: 'Context indicates "bank" refers to the edge or side of the river, demonstrating lexical ambiguity resolution.'
+  },
+  {
+    id: 652,
+    category: 'Vocabulary',
+    question: '"The chicken is ready to eat" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The chicken is cooked',
+      'The chicken is hungry',
+      'Both interpretations are possible',
+      'Neither interpretation makes sense'
+    ],
+    correctAnswer: 2,
+    explanation: 'This demonstrates syntactic ambiguity - it could mean the chicken is cooked and ready for consumption, or the chicken (animal) is ready to consume food.'
+  },
+  {
+    id: 653,
+    category: 'Vocabulary',
+    question: 'In "I saw her duck," the word "duck" most likely means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'A water bird',
+      'Lower one\'s head quickly',
+      'A type of fabric',
+      'A term of endearment'
+    ],
+    correctAnswer: 1,
+    explanation: 'With "saw her" as the context, "duck" is more likely a verb meaning to lower the head, though it could also be a noun (the bird).'
+  },
+  {
+    id: 654,
+    category: 'Vocabulary',
+    question: 'The sentence "Visiting relatives can be boring" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Relatives who visit are boring',
+      'The act of visiting relatives is boring',
+      'Both interpretations are possible',
+      'The sentence is grammatically incorrect'
+    ],
+    correctAnswer: 2,
+    explanation: 'This shows structural ambiguity - "visiting" can be a gerund (the act of visiting) or an adjective (relatives who visit).'
+  },
+  {
+    id: 655,
+    category: 'Vocabulary',
+    question: 'In "The bat flew out of my hand," "bat" most likely refers to:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'A flying mammal',
+      'A sports equipment',
+      'To hit something',
+      'An eyelash movement'
+    ],
+    correctAnswer: 1,
+    explanation: 'The phrase "flew out of my hand" suggests it was held and released, indicating sports equipment rather than the animal.'
+  },
+  {
+    id: 656,
+    category: 'Vocabulary',
+    question: '"I need to book a book" contains ambiguity in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The first "book" only',
+      'The second "book" only',
+      'Both instances of "book"',
+      'Neither instance'
+    ],
+    correctAnswer: 0,
+    explanation: 'The first "book" is a verb (to reserve), the second is a noun (a written work), demonstrating homonymy.'
+  },
+  {
+    id: 657,
+    category: 'Vocabulary',
+    question: 'The sentence "He saw the man with the telescope" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The telescope belongs to the man',
+      'He used a telescope to see the man',
+      'Both interpretations are grammatically possible',
+      'The sentence lacks a verb'
+    ],
+    correctAnswer: 2,
+    explanation: 'This demonstrates prepositional phrase attachment ambiguity - "with the telescope" could modify "saw" or "man".'
+  },
+  {
+    id: 658,
+    category: 'Vocabulary',
+    question: 'In "The lamb is too hot to eat," the ambiguity lies in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The temperature of the meat',
+      'The animal is experiencing heat',
+      'Both interpretations are possible',
+      'The sentence is incomplete'
+    ],
+    correctAnswer: 2,
+    explanation: 'It could mean the lamb (meat) is too hot temperature-wise, or the lamb (animal) is too hot to eat food.'
+  },
+  {
+    id: 659,
+    category: 'Vocabulary',
+    question: '"Flying planes can be dangerous" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Planes that are flying',
+      'The act of piloting planes',
+      'Both interpretations are valid',
+      'It refers to paper planes'
+    ],
+    correctAnswer: 2,
+    explanation: '"Flying" could be an adjective (planes that are flying) or a gerund (the act of flying planes).'
+  },
+  {
+    id: 660,
+    category: 'Vocabulary',
+    question: 'In "She cannot bear children," the word "bear" means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Tolerate or endure',
+      'Give birth to',
+      'Carry or support',
+      'The animal'
+    ],
+    correctAnswer: 1,
+    explanation: 'With "children" as the object, "bear" most likely means to give birth to, though it could mean tolerate.'
+  },
+  {
+    id: 661,
+    category: 'Vocabulary',
+    question: 'The phrase "old men and women" is ambiguous regarding:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Whether both are old',
+      'Whether they are related',
+      'Their exact ages',
+      'Their occupations'
+    ],
+    correctAnswer: 0,
+    explanation: 'It\'s unclear if "old" modifies just "men" or both "men and women" due to coordinate structure ambiguity.'
+  },
+  {
+    id: 662,
+    category: 'Vocabulary',
+    question: 'In "I like cooking apples," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The activity of cooking apples',
+      'Apples that are good for cooking',
+      'Both interpretations are possible',
+      'A preference for apple dishes'
+    ],
+    correctAnswer: 2,
+    explanation: '"Cooking" could be a gerund (the activity) or an adjective (type of apple suitable for cooking).'
+  },
+  {
+    id: 663,
+    category: 'Vocabulary',
+    question: '"She hit the man with the cane" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The instrument used for hitting',
+      'The man owns the cane',
+      'Both interpretations are grammatically valid',
+      'The action is unclear'
+    ],
+    correctAnswer: 2,
+    explanation: '"With the cane" could indicate the instrument of hitting or describe which man was hit.'
+  },
+  {
+    id: 664,
+    category: 'Vocabulary',
+    question: 'In "They are hunting dogs," the ambiguity involves:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Dogs that hunt',
+      'People hunting for dogs',
+      'Both interpretations work',
+      'A specific dog breed'
+    ],
+    correctAnswer: 2,
+    explanation: '"Hunting" could be an adjective (dogs bred for hunting) or part of a verb phrase (people are hunting dogs).'
+  },
+  {
+    id: 665,
+    category: 'Vocabulary',
+    question: 'The word "fine" in "She received a fine" most likely means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Of high quality',
+      'A monetary penalty',
+      'Very thin',
+      'Acceptable'
+    ],
+    correctAnswer: 1,
+    explanation: 'The verb "received" with "a fine" as object indicates a monetary penalty, resolving the polysemy.'
+  },
+  {
+    id: 666,
+    category: 'Vocabulary',
+    question: '"Time flies like an arrow" contains potential ambiguity in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The speed of time',
+      'A type of insect',
+      'Both interpretations possible but one is idiomatic',
+      'The direction of flight'
+    ],
+    correctAnswer: 2,
+    explanation: 'While idiomatically it means time passes quickly, it could absurdly mean flies (insects) enjoy arrows, demonstrating syntactic ambiguity.'
+  },
+  {
+    id: 667,
+    category: 'Vocabulary',
+    question: 'In "The shooting of the hunters was terrible," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Hunters being shot',
+      'Hunters\' marksmanship',
+      'Both interpretations are grammatically possible',
+      'The timing of the event'
+    ],
+    correctAnswer: 2,
+    explanation: 'This demonstrates genitive ambiguity - hunters could be the subject (doing the shooting) or object (being shot).'
+  },
+  {
+    id: 668,
+    category: 'Vocabulary',
+    question: '"I saw her duck under the table" - "duck" here means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'A water bird',
+      'To lower one\'s body',
+      'A pet name',
+      'A type of movement'
+    ],
+    correctAnswer: 1,
+    explanation: 'The phrase "under the table" clarifies that "duck" is a verb meaning to lower the body quickly.'
+  },
+  {
+    id: 669,
+    category: 'Vocabulary',
+    question: 'The sentence "She likes entertaining guests" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Guests who entertain',
+      'The act of entertaining guests',
+      'Both could be grammatically valid',
+      'The verb tense is unclear'
+    ],
+    correctAnswer: 2,
+    explanation: '"Entertaining" could be a gerund (activity) or adjective (guests who are entertaining).'
+  },
+  {
+    id: 670,
+    category: 'Vocabulary',
+    question: 'In "He gave her dog biscuits," the ambiguity involves:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Biscuits for her dog',
+      'Dog-shaped biscuits for her',
+      'Both interpretations are possible',
+      'The quantity of biscuits'
+    ],
+    correctAnswer: 2,
+    explanation: 'Without punctuation, it\'s unclear if "dog" modifies "biscuits" or if "her dog" is the recipient.'
+  },
+  {
+    id: 671,
+    category: 'Vocabulary',
+    question: '"More people have died in car accidents than live" creates ambiguity in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The word "live" as verb or adjective',
+      'The number of deaths',
+      'The time period',
+      'The location'
+    ],
+    correctAnswer: 0,
+    explanation: '"Live" could mean "are alive" (verb) or could continue to "than live...in other accidents" (adjective).'
+  },
+  {
+    id: 672,
+    category: 'Vocabulary',
+    question: 'In "Teachers who skip classes are fired," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Teachers avoiding their own classes',
+      'Teachers who miss students\' classes',
+      'Both interpretations work',
+      'The punishment method'
+    ],
+    correctAnswer: 2,
+    explanation: '"Skip classes" could mean teachers not attending their teaching duties or teachers missing other classes.'
+  },
+  {
+    id: 673,
+    category: 'Vocabulary',
+    question: 'The word "light" in "Turn off the light" refers to:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Not heavy',
+      'Illumination or lamp',
+      'Pale in color',
+      'Not serious'
+    ],
+    correctAnswer: 1,
+    explanation: 'The verb "turn off" collocates with electrical devices, indicating "light" means illumination/lamp.'
+  },
+  {
+    id: 674,
+    category: 'Vocabulary',
+    question: '"Large animals and insects" is ambiguous about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Whether insects are included as large',
+      'The number of species',
+      'Their habitat',
+      'Their behavior'
+    ],
+    correctAnswer: 0,
+    explanation: 'Scope ambiguity - unclear if "large" modifies both "animals and insects" or just "animals".'
+  },
+  {
+    id: 675,
+    category: 'Vocabulary',
+    question: 'In "I watched the race from the stands," "stands" means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The verb meaning to be upright',
+      'Seating structures at a venue',
+      'A position on an issue',
+      'Supports or bases'
+    ],
+    correctAnswer: 1,
+    explanation: 'The context "watched the race from" indicates "stands" refers to spectator seating structures.'
+  },
+  {
+    id: 676,
+    category: 'Vocabulary',
+    question: '"The girl saw the boy with binoculars" demonstrates ambiguity in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Instrument attachment',
+      'Possession',
+      'Both interpretations are structurally possible',
+      'Temporal sequence'
+    ],
+    correctAnswer: 2,
+    explanation: 'Could mean she used binoculars to see him, or she saw him who had binoculars - prepositional phrase attachment ambiguity.'
+  },
+  {
+    id: 677,
+    category: 'Vocabulary',
+    question: 'In "She drew a picture of a man with a pen," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The drawing instrument',
+      'The man holds a pen',
+      'Both interpretations are valid',
+      'The artistic style'
+    ],
+    correctAnswer: 2,
+    explanation: '"With a pen" could indicate the instrument used for drawing or describe the man in the picture.'
+  },
+  {
+    id: 678,
+    category: 'Vocabulary',
+    question: 'The word "match" in "I need a match" could mean:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'A fire-starting stick only',
+      'A competitive game only',
+      'Either depending on context',
+      'A compatible partner only'
+    ],
+    correctAnswer: 2,
+    explanation: 'Without additional context, "match" could refer to a fire stick, sporting competition, or compatible item/person.'
+  },
+  {
+    id: 679,
+    category: 'Vocabulary',
+    question: '"Students rarely work" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Students seldom have jobs',
+      'Students rarely do their schoolwork',
+      'Both interpretations are possible',
+      'The time frame is unclear'
+    ],
+    correctAnswer: 2,
+    explanation: '"Work" could mean employment or academic work, demonstrating lexical ambiguity.'
+  },
+  {
+    id: 680,
+    category: 'Vocabulary',
+    question: 'In "He saw the Grand Canyon flying to New York," the ambiguity involves:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The canyon is flying',
+      'He was flying when he saw it',
+      'Both are grammatically possible but one is logical',
+      'The direction of flight'
+    ],
+    correctAnswer: 2,
+    explanation: 'Dangling modifier - logically he was flying, but grammatically "flying" could modify "Grand Canyon".'
+  },
+  {
+    id: 681,
+    category: 'Vocabulary',
+    question: 'The phrase "Exotic animals and birds" creates ambiguity about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Whether birds are considered animals',
+      'Whether birds are also exotic',
+      'The number of species',
+      'Their origin'
+    ],
+    correctAnswer: 1,
+    explanation: 'Scope ambiguity - unclear if "exotic" applies only to animals or to both animals and birds.'
+  },
+  {
+    id: 682,
+    category: 'Vocabulary',
+    question: 'In "The shooting of the detective was brilliant," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The detective\'s photography skills',
+      'The detective being shot',
+      'The detective\'s marksmanship',
+      'All interpretations could be valid'
+    ],
+    correctAnswer: 3,
+    explanation: 'Genitive ambiguity - could mean the detective\'s shooting skills, someone shooting the detective brilliantly, or a film scene.'
+  },
+  {
+    id: 683,
+    category: 'Vocabulary',
+    question: '"I saw her duck in the pond" - "duck" most likely means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Lower her head',
+      'A water bird',
+      'Both could work contextually',
+      'A swimming motion'
+    ],
+    correctAnswer: 1,
+    explanation: 'The phrase "in the pond" strongly suggests "duck" is a noun (the bird) rather than a verb.'
+  },
+  {
+    id: 684,
+    category: 'Vocabulary',
+    question: 'The word "fast" in "He broke his fast" means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Quick or speedy',
+      'Period without eating',
+      'Firmly fixed',
+      'Ahead of time'
+    ],
+    correctAnswer: 1,
+    explanation: 'The verb "broke" with "fast" as object indicates the period of not eating, resolving the polysemy.'
+  },
+  {
+    id: 685,
+    category: 'Vocabulary',
+    question: '"Clever men and women" is ambiguous about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Whether women are clever too',
+      'The number of people',
+      'Their occupations',
+      'Their relationship'
+    ],
+    correctAnswer: 0,
+    explanation: 'Coordinate structure ambiguity - unclear if "clever" modifies only "men" or both "men and women".'
+  },
+  {
+    id: 686,
+    category: 'Vocabulary',
+    question: 'In "She served the guest with a smile," the ambiguity involves:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Her manner of service',
+      'The guest was smiling',
+      'Both interpretations are grammatically possible',
+      'The type of service'
+    ],
+    correctAnswer: 0,
+    explanation: 'While both could work grammatically, "with a smile" most naturally describes her manner of serving.'
+  },
+  {
+    id: 687,
+    category: 'Vocabulary',
+    question: 'The sentence "Reading teachers is difficult" is ambiguous because:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Teachers who teach reading',
+      'The act of reading to teachers',
+      'Understanding teachers is hard',
+      'Multiple interpretations are possible'
+    ],
+    correctAnswer: 3,
+    explanation: '"Reading" could be a gerund (the activity) or adjective (type of teacher), and "teachers" could be object or subject.'
+  },
+  {
+    id: 688,
+    category: 'Vocabulary',
+    question: 'In "The patient saw the doctor with concern," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The patient was concerned',
+      'The doctor had concern',
+      'Both interpretations work',
+      'The medical condition'
+    ],
+    correctAnswer: 2,
+    explanation: '"With concern" could modify how the patient saw the doctor, or describe the doctor\'s state.'
+  },
+  {
+    id: 689,
+    category: 'Vocabulary',
+    question: 'The word "cleave" is ambiguous because it can mean:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'To split apart',
+      'To stick together',
+      'Both opposite meanings (auto-antonym)',
+      'To cut cleanly'
+    ],
+    correctAnswer: 2,
+    explanation: '"Cleave" is an auto-antonym - it can mean both to split/separate and to adhere/cling, requiring context for clarity.'
+  },
+  {
+    id: 690,
+    category: 'Vocabulary',
+    question: 'In "I left the keys on the table in the kitchen," potential ambiguity exists about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Which item is in the kitchen',
+      'The number of keys',
+      'The time of action',
+      'Who owns the keys'
+    ],
+    correctAnswer: 0,
+    explanation: 'Prepositional phrase attachment - "in the kitchen" could modify "left" (action location) or "table" (table location).'
+  },
+  {
+    id: 691,
+    category: 'Vocabulary',
+    question: '"Every boy loves his mother" differs from "Every boy loves a mother" in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Scope of quantification',
+      'Tense usage',
+      'Number agreement',
+      'Formality level'
+    ],
+    correctAnswer: 0,
+    explanation: '"His mother" (his own) vs "a mother" (possibly any mother) demonstrates scope ambiguity with quantifiers.'
+  },
+  {
+    id: 692,
+    category: 'Vocabulary',
+    question: 'The word "sanction" is ambiguous because it can mean:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'To approve or authorize',
+      'To penalize or boycott',
+      'Both opposite meanings',
+      'To support financially'
+    ],
+    correctAnswer: 2,
+    explanation: '"Sanction" is another auto-antonym - it can mean both to officially approve and to impose a penalty.'
+  },
+  {
+    id: 693,
+    category: 'Vocabulary',
+    question: 'In "Small cars and trucks," the ambiguity concerns:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Whether trucks are small',
+      'The number of vehicles',
+      'The manufacturing company',
+      'The color'
+    ],
+    correctAnswer: 0,
+    explanation: 'Scope ambiguity with adjective modification - does "small" apply only to cars or to both cars and trucks?'
+  },
+  {
+    id: 694,
+    category: 'Vocabulary',
+    question: '"I told her about the problem yesterday" could be ambiguous about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'When the telling occurred',
+      'When the problem occurred',
+      'Both temporal interpretations are possible',
+      'Who has the problem'
+    ],
+    correctAnswer: 2,
+    explanation: '"Yesterday" could modify when the telling happened or when the problem arose - temporal modifier ambiguity.'
+  },
+  {
+    id: 695,
+    category: 'Vocabulary',
+    question: 'The word "oversight" is ambiguous because it means:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Supervision',
+      'An error or omission',
+      'Both meanings exist',
+      'A review process'
+    ],
+    correctAnswer: 2,
+    explanation: '"Oversight" can mean watchful care/supervision OR an inadvertent failure to notice - another auto-antonym.'
+  },
+  {
+    id: 696,
+    category: 'Vocabulary',
+    question: 'In "Mary wants to marry a Norwegian," ambiguity exists about:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Any Norwegian person',
+      'A specific Norwegian person',
+      'Both interpretations are possible',
+      'Mary\'s nationality'
+    ],
+    correctAnswer: 2,
+    explanation: 'Referential ambiguity - "a Norwegian" could be specific (one particular person) or non-specific (any Norwegian).'
+  },
+  {
+    id: 697,
+    category: 'Vocabulary',
+    question: '"I photographed the students with a camera" - potential ambiguity in:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'The instrument used',
+      'Students holding cameras',
+      'First interpretation is most logical',
+      'The location'
+    ],
+    correctAnswer: 2,
+    explanation: 'While grammatically "with a camera" could modify students or photographing, logically it indicates the instrument.'
+  },
+  {
+    id: 698,
+    category: 'Vocabulary',
+    question: 'The sentence "Pretty little girls\' school" has multiple ambiguities regarding:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'What "pretty" modifies',
+      'Whether girls or school is little',
+      'Possessive scope',
+      'All of the above'
+    ],
+    correctAnswer: 3,
+    explanation: 'Multiple ambiguities: pretty (somewhat/attractive), little (young/small), and possessive attachment (girls\' or little girls\').'
+  },
+  {
+    id: 699,
+    category: 'Vocabulary',
+    question: 'In "They decided on the boat," the ambiguity involves:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Where the decision was made',
+      'What was decided upon',
+      'Both interpretations are valid',
+      'When the decision occurred'
+    ],
+    correctAnswer: 2,
+    explanation: '"On the boat" could indicate location of the decision or that the boat was the choice made.'
+  },
+  {
+    id: 700,
+    category: 'Vocabulary',
+    question: '"I didn\'t say John stole the money" can have different meanings based on:',
+    instruction: 'Select the correct meaning based on context to resolve ambiguity.',
+    options: [
+      'Stress on different words',
+      'Written punctuation',
+      'Context only',
+      'Grammar rules'
+    ],
+    correctAnswer: 0,
+    explanation: 'Prosodic ambiguity - stressing different words changes meaning: I/didn\'t/say/John/stole/the/money each creates different implications.'
+  },
+
+  // STYLISTIC VARIATION - Additional Questions (Questions 701-730)
+  {
+    id: 701,
+    category: 'Stylistic Variation',
+    question: 'Which is most appropriate for academic writing?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The study shows that kids learn fast',
+      'The research demonstrates that children acquire knowledge rapidly',
+      'Research shows kids pick things up quick',
+      'The study proves children learn stuff fast'
+    ],
+    correctAnswer: 1,
+    explanation: 'Academic writing requires formal vocabulary: "research demonstrates," "children" (not kids), "acquire knowledge rapidly" (not learn fast).'
+  },
+  {
+    id: 702,
+    category: 'Stylistic Variation',
+    question: 'Select the most formal alternative:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'We need to check out the data',
+      'We must examine the data',
+      'We gotta look at the data',
+      'We should take a look at the data'
+    ],
+    correctAnswer: 1,
+    explanation: '"Must examine" is most formal; "check out," "gotta," and "take a look" are too casual for formal contexts.'
+  },
+  {
+    id: 703,
+    category: 'Stylistic Variation',
+    question: 'Which sentence uses consultative register appropriately?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Hey doc, my stomach hurts bad',
+      'Doctor, I am experiencing severe abdominal pain',
+      'Physician, I present with acute gastric discomfort',
+      'Yo doctor, my belly is killing me'
+    ],
+    correctAnswer: 1,
+    explanation: 'Consultative register balances formality and accessibility - polite address, clear symptom description without excessive jargon.'
+  },
+  {
+    id: 704,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate business email opening:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Hey there!',
+      'Dear Sir or Madam,',
+      'What\'s up?',
+      'Yo!'
+    ],
+    correctAnswer: 1,
+    explanation: 'Formal business correspondence requires formal greetings; "Dear Sir or Madam" is appropriate when the recipient is unknown.'
+  },
+  {
+    id: 705,
+    category: 'Stylistic Variation',
+    question: 'Which is most suitable for a legal document?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The party of the first part agrees to stuff',
+      'The first party agrees to do things',
+      'Party A hereby agrees to fulfill the obligations',
+      'Party one says they\'ll do what they promised'
+    ],
+    correctAnswer: 2,
+    explanation: 'Legal documents use frozen register with precise terminology: "hereby," "fulfill," "obligations" are standard legal language.'
+  },
+  {
+    id: 706,
+    category: 'Stylistic Variation',
+    question: 'Select the most informal expression:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I am unable to attend',
+      'I cannot attend',
+      'I can\'t make it',
+      'My attendance is not possible'
+    ],
+    correctAnswer: 2,
+    explanation: '"Can\'t make it" is casual/informal; the others progress from formal to consultative register.'
+  },
+  {
+    id: 707,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate academic hedging?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The data proves this is true',
+      'The data suggests this may be accurate',
+      'The data totally shows this is right',
+      'The data definitely confirms this'
+    ],
+    correctAnswer: 1,
+    explanation: 'Academic writing uses hedging language ("suggests," "may be") to show appropriate caution rather than absolute claims.'
+  },
+  {
+    id: 708,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate technical description:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The machine broke down',
+      'The equipment malfunctioned',
+      'The device experienced operational failure',
+      'The thing stopped working'
+    ],
+    correctAnswer: 2,
+    explanation: 'Technical contexts require precise terminology: "device," "operational failure" are more specific than "machine broke down."'
+  },
+  {
+    id: 709,
+    category: 'Stylistic Variation',
+    question: 'Which is most appropriate for a research conclusion?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'So basically, we found out that...',
+      'In conclusion, the findings indicate...',
+      'To sum up, we figured out...',
+      'Anyway, the results show...'
+    ],
+    correctAnswer: 1,
+    explanation: 'Academic conclusions use formal transitions: "In conclusion," "findings indicate" rather than casual expressions.'
+  },
+  {
+    id: 710,
+    category: 'Stylistic Variation',
+    question: 'Select the most formal expression of disagreement:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'That\'s totally wrong',
+      'I respectfully disagree with this assertion',
+      'I don\'t think that\'s right',
+      'Nope, that\'s not correct'
+    ],
+    correctAnswer: 1,
+    explanation: 'Formal disagreement uses respectful language and formal vocabulary: "respectfully disagree," "assertion."'
+  },
+  {
+    id: 711,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate nominalization?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'They decided quickly',
+      'A rapid decision was made',
+      'They made up their minds fast',
+      'The decision happened quick'
+    ],
+    correctAnswer: 1,
+    explanation: 'Nominalization (verb to noun) is common in formal writing: "decision" (noun) vs "decided" (verb), "rapid" vs "quickly."'
+  },
+  {
+    id: 712,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate passive construction for a lab report:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'We heated the solution',
+      'The solution was heated',
+      'I heated up the solution',
+      'The solution got hot'
+    ],
+    correctAnswer: 1,
+    explanation: 'Scientific writing often uses passive voice to emphasize the action/object: "The solution was heated" is standard.'
+  },
+  {
+    id: 713,
+    category: 'Stylistic Variation',
+    question: 'Which is most suitable for a formal presentation?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I\'m gonna talk about climate change',
+      'I will discuss climate change',
+      'I\'ll chat about climate change',
+      'Let me tell you about climate change'
+    ],
+    correctAnswer: 1,
+    explanation: 'Formal presentations use complete forms and formal verbs: "I will discuss" rather than contractions or casual verbs.'
+  },
+  {
+    id: 714,
+    category: 'Stylistic Variation',
+    question: 'Select the most euphemistic expression:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'He was fired',
+      'He was terminated',
+      'He was let go',
+      'His employment was discontinued'
+    ],
+    correctAnswer: 3,
+    explanation: '"Employment was discontinued" is most euphemistic (softened); it\'s formal and indirect compared to blunt alternatives.'
+  },
+  {
+    id: 715,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate academic objectivity?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I think the results are amazing',
+      'The results are significant',
+      'In my opinion, the results are great',
+      'Obviously, the results are important'
+    ],
+    correctAnswer: 1,
+    explanation: 'Academic writing avoids first person and subjective language; "The results are significant" is objective.'
+  },
+  {
+    id: 716,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate diplomatic phrasing:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Your proposal has problems',
+      'Your proposal requires refinement',
+      'Your proposal is bad',
+      'Your proposal doesn\'t work'
+    ],
+    correctAnswer: 1,
+    explanation: 'Diplomatic language softens criticism: "requires refinement" is more tactful than direct negative statements.'
+  },
+  {
+    id: 717,
+    category: 'Stylistic Variation',
+    question: 'Which is most appropriate for a grant proposal?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'We want to study this',
+      'We propose to investigate this phenomenon',
+      'We\'re gonna look into this',
+      'We plan to check this out'
+    ],
+    correctAnswer: 1,
+    explanation: 'Grant proposals require formal language: "propose to investigate," "phenomenon" convey professionalism and precision.'
+  },
+  {
+    id: 718,
+    category: 'Stylistic Variation',
+    question: 'Select the most appropriate medical terminology:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The patient has a bad headache',
+      'The patient presents with severe cephalgia',
+      'The patient\'s head hurts a lot',
+      'The patient complains of head pain'
+    ],
+    correctAnswer: 1,
+    explanation: 'Medical contexts use technical terminology: "presents with" (professional phrasing), "cephalgia" (medical term for headache).'
+  },
+  {
+    id: 719,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate scholarly tone?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Lots of researchers say this is true',
+      'Numerous scholars have confirmed this assertion',
+      'A bunch of experts agree with this',
+      'Many people think this is right'
+    ],
+    correctAnswer: 1,
+    explanation: 'Scholarly writing uses precise, formal language: "numerous scholars," "confirmed," "assertion" over casual expressions.'
+  },
+  {
+    id: 720,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate impersonal construction:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I found that temperature affects the reaction',
+      'We observed that temperature affects the reaction',
+      'It was found that temperature affects the reaction',
+      'You can see that temperature affects the reaction'
+    ],
+    correctAnswer: 2,
+    explanation: 'Impersonal constructions ("It was found that") remove personal reference, increasing objectivity in academic writing.'
+  },
+  {
+    id: 721,
+    category: 'Stylistic Variation',
+    question: 'Which is most appropriate for a policy document?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Employees should not come late',
+      'Punctuality is expected of all personnel',
+      'Workers need to show up on time',
+      'Staff shouldn\'t be tardy'
+    ],
+    correctAnswer: 1,
+    explanation: 'Policy documents use formal language: "punctuality," "personnel" rather than casual expressions about being late.'
+  },
+  {
+    id: 722,
+    category: 'Stylistic Variation',
+    question: 'Select the most appropriate academic qualification:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'This might possibly maybe work',
+      'This may potentially demonstrate efficacy',
+      'This could probably work',
+      'This might work, I guess'
+    ],
+    correctAnswer: 1,
+    explanation: 'Academic hedging uses formal modal verbs and vocabulary: "may potentially," "demonstrate efficacy" are appropriately cautious and formal.'
+  },
+  {
+    id: 723,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate formality for a job application?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I\'m really good at this stuff',
+      'I possess extensive expertise in this field',
+      'I know a lot about this',
+      'I\'m pretty experienced with this'
+    ],
+    correctAnswer: 1,
+    explanation: 'Job applications require formal self-presentation: "possess extensive expertise in this field" is appropriately professional.'
+  },
+  {
+    id: 724,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate neutral terminology:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'The chairman led the meeting',
+      'The chairperson presided over the meeting',
+      'The chair guy ran the meeting',
+      'The boss handled the meeting'
+    ],
+    correctAnswer: 1,
+    explanation: 'Gender-neutral, formal language is appropriate: "chairperson," "presided over" are both inclusive and formal.'
+  },
+  {
+    id: 725,
+    category: 'Stylistic Variation',
+    question: 'Which is most appropriate for an abstract?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'This paper talks about climate change effects',
+      'This study examines the impacts of climate change',
+      'This essay discusses what climate change does',
+      'This work looks at climate change stuff'
+    ],
+    correctAnswer: 1,
+    explanation: 'Abstracts use formal, precise language: "study examines," "impacts" rather than casual verbs like "talks about."'
+  },
+  {
+    id: 726,
+    category: 'Stylistic Variation',
+    question: 'Select the most appropriate formal transition:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'Also, the data shows...',
+      'Furthermore, the data indicate...',
+      'Plus, the data shows...',
+      'And the data shows...'
+    ],
+    correctAnswer: 1,
+    explanation: 'Formal academic transitions use words like "furthermore" and subject-verb agreement "data indicate" (plural).'
+  },
+  {
+    id: 727,
+    category: 'Stylistic Variation',
+    question: 'Which demonstrates appropriate professional distance?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'I feel strongly that this is wrong',
+      'The evidence suggests this conclusion is problematic',
+      'I personally think this is incorrect',
+      'In my view, this is a bad conclusion'
+    ],
+    correctAnswer: 1,
+    explanation: 'Professional writing maintains distance: references evidence rather than personal feelings, uses formal vocabulary.'
+  },
+  {
+    id: 728,
+    category: 'Stylistic Variation',
+    question: 'Choose the most appropriate cautious claim:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'This definitely causes cancer',
+      'This may be associated with increased cancer risk',
+      'This probably causes cancer',
+      'This might maybe cause cancer'
+    ],
+    correctAnswer: 1,
+    explanation: 'Scientific caution uses measured language: "may be associated with" is appropriately hedged and formal.'
+  },
+  {
+    id: 729,
+    category: 'Stylistic Variation',
+    question: 'Which is most suitable for a research methodology section?',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'We picked 50 people randomly',
+      'A random sample of 50 participants was selected',
+      'We randomly chose 50 folks',
+      'We got 50 random people'
+    ],
+    correctAnswer: 1,
+    explanation: 'Methodology sections use passive voice and formal terms: "sample," "participants," "was selected" are standard.'
+  },
+  {
+    id: 730,
+    category: 'Stylistic Variation',
+    question: 'Select the most appropriate formal recommendation:',
+    instruction: 'Choose the option that best matches the formal register required for academic contexts.',
+    options: [
+      'You should really do more research',
+      'Further investigation is warranted',
+      'More research would be good',
+      'It would be nice to research more'
+    ],
+    correctAnswer: 1,
+    explanation: 'Formal recommendations use impersonal constructions and formal vocabulary: "Further investigation is warranted" is appropriately academic.'
   }
 ]
 

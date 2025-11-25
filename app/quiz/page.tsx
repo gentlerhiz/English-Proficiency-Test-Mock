@@ -16,7 +16,7 @@ export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>([])
   const [showResults, setShowResults] = useState(false)
-  const [timeLeft, setTimeLeft] = useState(3600) // 60 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(1800) // 30 minutes in seconds
   const [quizStarted, setQuizStarted] = useState(false)
 
   // Timer effect
@@ -116,7 +116,7 @@ export default function QuizPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-sm sm:text-base">
               <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">50 Questions</span>
-              <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">60 Minutes</span>
+              <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">30 Minutes</span>
               <span className="bg-white/20 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full">Instant Results</span>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function QuizPage() {
                 <div className="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Time Limit</h3>
-                  <p className="text-gray-700">You have <strong>60 minutes</strong> to complete <strong>50 questions</strong>. The timer starts when you begin.</p>
+                  <p className="text-gray-700">You have <strong>30 minutes</strong> to complete <strong>50 questions</strong>. The timer starts when you begin.</p>
                 </div>
               </div>
 
